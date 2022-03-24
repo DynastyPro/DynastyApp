@@ -10,12 +10,14 @@ import Ourservice from './component/ourservice';
 import Patners from './component/patners';
 import Footer from './component/footer';
 import Testing from './component/testing';
+import RecentListing from './component/recentlisting';
 
 ReactDOM.render(
   <React.StrictMode>
     <Navbar />
     <Banner />
     <Nearchart />
+    <RecentListing />
     <Ourservice />
     <About />
     <Patners />

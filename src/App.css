@@ -410,3 +410,67 @@
   color: #ffffff;
   border-radius: 0px 10px 10px 0px;
 }
+
+
+/* Recent Listing */
+
+
+.recentlisting {
+  height: 600px;
+  position: relative;
+  padding: 0px 100px 20px 100px;
+  /* margin: 0px 100px 0px 100px; */
+  margin-bottom: 20px;
+}
+
+.recentlisting-header{
+  position: relative;
+  padding-top: 30px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.recentlisting-header .line {
+  position: relative;
+  text-align: center;
+  margin-left: 600px;
+  margin-top: 10px;
+  height: 10px;
+  width: 100px;
+  border-radius: 5px;
+  background-color: #040429;
+}
+
+.recentlisting-body {
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 50px;
+  display: flex;
+}
+
+.recentlisting-body img{
+  width: 300px;
+  height: 180px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.per-list {
+  width: 350px;
+  text-align: left;
+  padding-left: 50px;
+}
+
+.per-list span {
+  font-size: 25px;
+  font-weight: 800;
+  display: block;
+}
+
+.per-list h1 {
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
