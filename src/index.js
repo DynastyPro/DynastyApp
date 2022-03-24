@@ -1,12 +1,24 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Navbar from './component/navbar';
 import reportWebVitals from './reportWebVitals';
+import Banner from './component/banner';
+import Nearchart from './component/nearchart';
+import About from './component/about';
+import Ourservice from './component/ourservice';
+import Patners from './component/patners';
+import Footer from './component/footer';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Navbar />
+    <Banner />
+    <Nearchart />
+    <Ourservice />
+    <About />
+    <Patners />
+    <Footer />
   </React.StrictMode>,
   document.getElementById('root')
 );
