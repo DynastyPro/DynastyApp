@@ -26,7 +26,7 @@ const Testing = () => {
                 <li><span>Price: </span>{data[22].current_price}</li>
                 <li><span>Exchange: </span>{data[22].name}</li>
                 <li><span>Market Cap: </span>{data[22].market_cap}</li>
-                <li><span>24hrs Volume: </span>{data[22].market_cap_change_24h}</li>
+                <li><span>24hrs Volume: </span>{data[22].total_volume}</li>
                 <li><span>Total Supply: </span>{data[22].max_supply}</li>
                 <li><span>Circulating Supply: </span>{data[22].circulating_supply}</li>
                 <li><span>Explorer: </span><a href='' >explorer.nearprotocol.com</a></li>
