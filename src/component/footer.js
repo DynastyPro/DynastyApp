@@ -1,7 +1,7 @@
 import React from 'react';
 import '../App.css';
-import group4 from '../group4.svg';
-import socials from '../socials.svg';
+import group4 from '../images/group4.svg';
+import socials from '../images/socials.svg';
 
 function Footer() {
   return (

@@ -9,6 +9,7 @@ import About from './component/about';
 import Ourservice from './component/ourservice';
 import Patners from './component/patners';
 import Footer from './component/footer';
+import Testing from './component/testing';
 
 ReactDOM.render(
   <React.StrictMode>

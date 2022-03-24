@@ -1,5 +1,5 @@
 import React from 'react';
-import dynastylogo from '../dynasty.svg';
+import dynastylogo from '../images/dynasty.svg';
 import '../App.css';
 
 function Navbar() {

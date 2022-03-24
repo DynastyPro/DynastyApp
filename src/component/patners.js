@@ -1,6 +1,6 @@
 import React from 'react';
 import '../App.css';
-import mintyplex from '../mintyplex.svg';
+import mintyplex from '../images/mintyplex.svg';
 
 function Patners() {
   return (

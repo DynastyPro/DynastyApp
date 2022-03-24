@@ -1,6 +1,6 @@
 import React from 'react';
 import '../App.css';
-import group9 from '../group9.svg';
+import group9 from '../images/group9.svg';
 
 function Ourservice() {
   return (

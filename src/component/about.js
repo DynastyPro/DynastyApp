@@ -1,7 +1,7 @@
 import React from 'react';
 import '../App.css';
-import group7 from '../group7.svg';
-import group8 from '../group8.svg';
+import group7 from '../images/group7.svg';
+import group8 from '../images/group8.svg';
 
 function About() {
   return (

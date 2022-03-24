@@ -1,6 +1,6 @@
 import React from 'react';
-import group5 from '../group5.svg';
-import group6 from '../group6.svg';
+import group5 from '../images/group5.svg';
+import group6 from '../images/group6.svg';
 import '../App.css';
 
 function Banner() {
