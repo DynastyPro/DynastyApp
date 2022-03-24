@@ -6,7 +6,7 @@ const Testing = () => {
 
     const [data, setData] = useState(null)
 
-    const url = 'https://api.coingecko.com/api/v3/coins/near?tickers=false&market_data=true&community_data=true&developer_data=true&sparkline=false'
+    const url = 'https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=50&page=1&sparkline=false'
 
     useEffect(() => {
         axios.get(url).then((response) => {
@@ -22,10 +22,15 @@ const Testing = () => {
 
     return (
         <div className='nearchart'>
-            <img src={data.image} alt='' />
-            <h3>{data.liquidity_score}</h3>
-            <h3>{data.market_data}</h3>
-            <h3>{data.coingecko_rank.current_price}</h3>
+            <div className='text'>
+                <li><span>Price: </span>{data[22].current_price}</li>
+                <li><span>Exchange: </span>{data[22].name}</li>
+                <li><span>Market Cap: </span>{data[22].market_cap}</li>
+                <li><span>24hrs Volume: </span>{data[22].market_cap_change_24h}</li>
+                <li><span>Total Supply: </span>{data[22].max_supply}</li>
+                <li><span>Circulating Supply: </span>{data[22].circulating_supply}</li>
+                <li><span>Explorer: </span><a href='' >explorer.nearprotocol.com</a></li>
+            </div>
         </div>
     );
 }

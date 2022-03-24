@@ -13,7 +13,7 @@ function Banner() {
         <img src={group6} alt="" />
       </div>
       <div className='banner-text'>
-        <h1>DYNASTYDAO</h1>
+        <h1>DYNASTYPRO</h1>
         <h2>THE PRO AGGREGATOR</h2>
         <h3>We are an aggregator that aims to help new <b>NEAR</b> launched projects create high quality experiences for their communities. Check out our approved and vetted their collection and project are!</h3>
       </div>

@@ -19,6 +19,7 @@ ReactDOM.render(
     <Nearchart />
     <RecentListing />
     <Ourservice />
+    <Testing />
     <About />
     <Patners />
     <Footer />
