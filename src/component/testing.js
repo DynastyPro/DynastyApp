@@ -21,14 +21,14 @@ const Testing = () => {
     if(!data) return null
 
     return (
-        <div className='nearchart'>
+            <div className='nearchart'>
             <div className='text'>
-                <li><span>Price: </span>{data[22].current_price}</li>
-                <li><span>Exchange: </span>{data[22].name}</li>
-                <li><span>Market Cap: </span>{data[22].market_cap}</li>
-                <li><span>24hrs Volume: </span>{data[22].total_volume}</li>
-                <li><span>Total Supply: </span>{data[22].max_supply}</li>
-                <li><span>Circulating Supply: </span>{data[22].circulating_supply}</li>
+                <li><span>Price: </span>{data[16].current_price}</li>
+                <li><span>Exchange: </span>{data[16].name}</li>
+                <li><span>Market Cap: </span>{data[16].market_cap}</li>
+                <li><span>24hrs Volume: </span>{data[16].total_volume}</li>
+                <li><span>Total Supply: </span>{data[16].max_supply}</li>
+                <li><span>Circulating Supply: </span>{data[16].circulating_supply}</li>
                 <li><span>Explorer: </span><a href='' >explorer.nearprotocol.com</a></li>
             </div>
         </div>

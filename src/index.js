@@ -11,17 +11,19 @@ import Patners from './component/patners';
 import Footer from './component/footer';
 import Testing from './component/testing';
 import RecentListing from './component/recentlisting';
+import Collection from './component/collection';
 
 ReactDOM.render(
   <React.StrictMode>
     <Navbar />
     <Banner />
     <Nearchart />
-    <RecentListing />
-    <Ourservice />
-    <Testing />
-    <About />
-    <Patners />
+    {/* <RecentListing /> */}
+    {/* <Ourservice /> */}
+    {/* <Testing /> */}
+    {/* <About /> */}
+    {/* <Patners /> */}
+    <Collection />
     <Footer />
   </React.StrictMode>,
   document.getElementById('root')

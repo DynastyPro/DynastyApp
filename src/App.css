@@ -446,3 +446,48 @@
   margin-top: -75px;
   margin-bottom: -50px;
 }
+
+
+/* Collection */
+
+
+.collection {
+  position: relative;
+  padding: 0px 350px 20px 350px;
+}
+
+.collection-list {
+  position: relative;
+  text-align: center;
+  padding-bottom: 250px;
+}
+
+.collection-list img {
+  width: 346px;
+  height: 236px;
+  border-radius: 20px;
+  float: left;
+}
+
+.collection-text{
+  text-align: left !important;
+  width: 400px;
+  position: relative;
+  float: right;
+  margin-left: 40px;
+}
+
+.collection-text h1 {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.collection-text span {
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.collection-text #register {
+  margin-top: 20px;
+  font-size: 10px;
+}
