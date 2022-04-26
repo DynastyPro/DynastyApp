@@ -4,26 +4,36 @@ import './index.css';
 import Navbar from './component/navbar';
 import reportWebVitals from './reportWebVitals';
 import Banner from './component/banner';
+import Banner2 from './component/banner2';
+import Banner3 from './component/banner3';
 import Nearchart from './component/nearchart';
 import About from './component/about';
+import AboutUs from './component/about-us';
 import Ourservice from './component/ourservice';
 import Patners from './component/patners';
 import Footer from './component/footer';
-import Testing from './component/testing';
+import Testing2 from './component/testing2';
 import RecentListing from './component/recentlisting';
 import Collection from './component/collection';
+import Listed from './component/listed';
+import Testing from './component/testing';
+import CollectionDetails from './component/collection details';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Navbar />
+    {/* <Navbar /> */}
     <Banner />
-    <Nearchart />
-    {/* <RecentListing /> */}
-    {/* <Ourservice /> */}
+    {/* <Listed /> */}
+    {/* <Nearchart /> */}
+    <RecentListing />
+    <Ourservice />
+    {/* <Testing2 /> */}
     {/* <Testing /> */}
-    {/* <About /> */}
-    {/* <Patners /> */}
-    <Collection />
+    <About />
+    {/* <AboutUs /> */}
+    <Patners />
+    {/* <Collection /> */}
+    {/* <CollectionDetails /> */}
     <Footer />
   </React.StrictMode>,
   document.getElementById('root')

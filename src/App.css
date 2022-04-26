@@ -112,6 +112,57 @@
 }
 
 
+/* Banner 2 */
+
+
+.banner2-text {
+  text-align: center;
+  display: block;
+  margin-top: 70px;
+  color: #040429;
+}
+
+.banner2-text h1 {
+  text-align: center;
+  font-size: 80px;
+  font-weight: 800;
+  margin-bottom: -5px;
+}
+
+.banner2-text h3 {
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+  z-index: 1;
+}
+
+.banner2-item2 img {
+  float: right;
+}
+
+.banner2-item3 img {
+  float: left;
+  width: 600px;
+  margin-right: -200px;
+  margin-top: -100px !important;
+}
+
+.banner2-item1 img {
+  margin-left: 300px;
+  padding-top: 30px;
+}
+
+.banner2 {
+  align-items: center;
+  padding: 0 !important;
+}
+
+.banner2 img {
+  position: relative;
+}
+
+
+
 /* NearChart */
 
 .nearchart {
@@ -121,16 +172,17 @@
   justify-content: center;
   border-bottom: rgba(4, 4, 41, 0.3) solid 0.1px;
   position: relative;
+  display: flex;
 }
 
 .nearchart .text {
+  position: relative;
   display: flex;
   list-style: none;
   font-size: 12px;
   font-weight: 700;
-  margin-left: 50px;
-  margin-right: 50px;
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .nearchart .text li {
@@ -453,13 +505,17 @@
 
 .collection {
   position: relative;
-  padding: 0px 350px 20px 350px;
+  padding: 0px 350px 20px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
 }
 
 .collection-list {
   position: relative;
   text-align: center;
-  padding-bottom: 250px;
+  display: flex;
+  padding-bottom: 20px;
 }
 
 .collection-list img {
@@ -490,4 +546,101 @@
 .collection-text #register {
   margin-top: 20px;
   font-size: 10px;
+}
+
+
+/* AbouUs */
+
+.about-us {
+  text-align: center;
+  position: relative;
+  margin-top: 30px;
+}
+
+.about-text {
+  align-items: center;
+  position: relative;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.about-text-content, .about-text-content1 {
+  text-align: left;
+  display: inline-block;
+}
+
+.about-text-content h1 {
+  font-weight: 400;
+  font-size: 15px;
+  width: 350px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.about-text-content1 h1 {
+  font-weight: 400;
+  font-size: 15px;
+  width: 1000px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.about-contact {
+  background-color: rgba(4, 4, 41, 0.05);
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+}
+
+.about-contact .textin {
+  text-align: center;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.textin h2 {
+  font-weight: 400;
+  font-size: 15px;
+  width: 200px;
+  text-align: left;
+}
+
+.textin .we {
+  display: inline-block;
+  position: relative;
+}
+
+.textin #register {
+  font-size: 10px;
+}
+
+
+/* Listed Banner */
+
+
+.listed {
+  height: 480px;
+  left: 0px;
+  top: 0px;
+  position: relative;
+  background-image: url(../src/images/image1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.listed-text h1 {
+  color: #ffffff;
+  text-align: center;
+  font-size: 60px;
+  font-weight: 800;
+  margin-bottom: -5px;
+}
+
+.listed-text h3 {
+  color: #ffffff;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+  z-index: 1;
 }
