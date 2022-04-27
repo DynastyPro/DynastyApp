@@ -54,6 +54,12 @@
   background-color: #D6D6D6;
 }
 
+.mobile-menu{
+  margin: 0;
+  padding: 0;
+  display: none;
+}
+
 /* Banner */
 
 
@@ -70,6 +76,8 @@
 
 .banner-item img{
   float: right;
+  position: relative;
+  display: block;
   margin-right: 250px;
   margin-top: 76px;
 }
@@ -167,7 +175,7 @@
 
 .nearchart {
   height: 40px;
-  padding: 0px 100px 0px 100px;
+  padding: 0px 100px 20px 100px;
   /* margin: 0px 100px 0px 100px; */
   justify-content: center;
   border-bottom: rgba(4, 4, 41, 0.3) solid 0.1px;
@@ -299,6 +307,7 @@
 
 .service-text {
   width: 250px;
+  
 }
 
 .ellipse {
@@ -339,7 +348,7 @@
 .patners h1 {
   font-size: 70px;
   font-weight: 800;
-  margin-left: 100px;
+  margin-left: 50px;
   margin-bottom: 0;
 }
 
@@ -364,20 +373,27 @@
   height: 250px;
   background-color: rgba(4, 4, 41, 0.05);
   position: relative;
+  display: block;
+  justify-content: center;
   padding: 0px 200px 0px 200px;
   /* margin: 0px 100px 0px 100px; */
 }
 
 .footer .group4 {
-  margin-top: 100px;
+  position: absolute;
+  display: flex;
+}
+
+.footer-widget {
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .footer-widget .span {
-  margin-left: 480px;
-  max-width: 150px;
   font-size: 20px;
-  margin-top: -120px;
   position: relative;
+  display: flex;
+  justify-content: center;
   text-align: left;
   margin-bottom: 20px;
 }
@@ -444,6 +460,8 @@
 
 .recentlisting-header{
   position: relative;
+  display: block;
+  justify-content: center;
   padding-top: 50px;
   text-align: center;
   font-size: 40px;
@@ -452,11 +470,9 @@
 
 .recentlisting-header .line {
   position: relative;
-  text-align: center;
-  margin-left: 600px;
-  margin-top: 10px;
-  height: 10px;
+  justify-content: center;
   width: 100px;
+  height: 10px;
   border-radius: 5px;
   background-color: #040429;
 }
@@ -467,6 +483,7 @@
   margin-right: 100px;
   margin-top: 50px;
   display: flex;
+  justify-content: center;
 }
 
 .recentlisting-body img{
@@ -643,4 +660,132 @@
   font-size: 15px;
   font-weight: 400;
   z-index: 1;
+}
+
+
+
+
+
+/* Media Query */
+
+
+@media screen and (max-width: 750px) {
+  .navMenu {
+    display: none;
+    transition: all 1s ease-out;
+  }
+  .navMenu-mobile {
+    position: relative;
+    top: 10px;
+    height: 150px;
+    border-radius: 0px 0px 20px 20px;
+    display: block;
+    margin-top: 10px;
+    list-style: none;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    transition: all 1s ease-out;
+    z-index: 1;
+  }
+  .navMenu-mobile li {
+    padding-top: 35px;
+    text-align: center;
+    transition: all 1s ease-out;
+  }
+
+  .mobile-menu {
+    transition: all 1s ease-out;
+    position: relative;
+    display: block;
+    float: right;
+    margin-top: 20px;
+    border: none;
+    background: none;
+    outline: none;
+  }
+}
+
+@media screen and (max-width: 1247px) {
+  .navMenu {
+    display: none;
+    transition: all 1s ease-out;
+  }
+  .navMenu-mobile {
+    position: relative;
+    top: 10px;
+    height: 150px;
+    border-radius: 0px 0px 20px 20px;
+    display: block;
+    margin-top: 10px;
+    list-style: none;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    transition: all 1s ease-out;
+    z-index: 1;
+  }
+  .navMenu-mobile li {
+    padding-top: 35px;
+    text-align: center;
+    transition: all 1s ease-out;
+  }
+
+  .mobile-menu {
+    transition: all 1s ease-out;
+    position: relative;
+    display: block;
+    float: right;
+    margin-top: 20px;
+    border: none;
+    background: none;
+    outline: none;
+    margin-right: 180px !important;
+  }
+}
+
+
+@media screen and (max-width: 1406px) {
+  .service h6 {
+    font-size: 60px;
+    margin-top: 220px;
+  }
+}
+
+
+@media screen and (max-width: 1339px) {
+  .banner-text h1 {
+    font-size: 40px;
+  }
+  .banner-text h3 {
+    width: 300px;
+    font-size: 14px;
+  }
+  .patners-logo {
+    margin-right: 0px;
+  }
+  .service-text {
+    margin-right: -30px;
+  }
+  .banner-item {
+    width: 200px;
+    margin-left: 930px;
+
+  }
+}
+
+@media screen and (max-width: 1264px) {
+  .banner-item {
+    width: 200px;
+    margin-left: 930px;
+
+  }
+}
+
+@media screen and (max-width: 1247px) {
+  .service .group9 {
+    visibility: hidden;
+  }
+  .service-text{
+    margin-right: -100px;
+    padding-left: 50px;
+  }
 }

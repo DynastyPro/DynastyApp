@@ -10,7 +10,7 @@ function RecentListing() {
         <div className='recentlisting'>
             <div className='recentlisting-header'>
                 Recent Listing
-                <div className='line'></div>
+                {/* <div className='line'></div> */}
             </div>
             <div className='recentlisting-body'>
                 <div className='per-list'>

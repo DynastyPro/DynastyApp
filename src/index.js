@@ -21,10 +21,10 @@ import CollectionDetails from './component/collection details';
 
 ReactDOM.render(
   <React.StrictMode>
-    {/* <Navbar /> */}
+    <Navbar />
     <Banner />
     {/* <Listed /> */}
-    {/* <Nearchart /> */}
+    <Nearchart />
     <RecentListing />
     <Ourservice />
     {/* <Testing2 /> */}
