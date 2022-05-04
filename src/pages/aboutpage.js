@@ -1,22 +1,21 @@
 // import logo from '../logo.svg';
 import '../App.css';
 import Navbar from '../component/navbar';
-import Banner2 from '../component/banner2';
-import Collection from '../component/collection';
+import Banner3 from '../component/banner3';
+import AboutUs from '../component/about-us';
 import About from '../component/about';
 import Footer from '../component/footer';
-import { Collection } from 'react-bootstrap-icons';
 
-function ListingPage() {
+function AboutPage() {
   return (
 
     <div className=''>
       <Navbar />
-      <Banner2 />
-      <Collection />
+      <Banner3 />
+      <AboutUs />
       <Footer />
     </div>
   );
 }
 
-export default ListingPage;
+export default AboutPage;

@@ -6,7 +6,7 @@ const Testing2 = () => {
 
     const [data, setData] = useState(null)
 
-    const url = 'https://api-v2-mainnet.paras.id/activities/top-users?__skip=0&__limit=10'
+    const url = 'https://api-v2-mainnet.paras.id/activities/top-users'
 
     useEffect(() => {
         axios.get(url).then((response) => {
@@ -15,21 +15,36 @@ const Testing2 = () => {
             console.log(error)
         })
     }, [])
-
+    
     console.log(data)
+
+
 
     if(!data) return null
 
     return (
             <div className='nearchart'>
             <div className='text'>
-                <li><span>Price: </span>{data[2].collections}</li>
-                {/* <li><span>Exchange: </span>{data[16].name}</li>
-                <li><span>Market Cap: </span>{data[16].market_cap}</li>
-                <li><span>24hrs Volume: </span>{data[16].total_volume}</li>
-                <li><span>Total Supply: </span>{data[16].max_supply}</li>
-                <li><span>Circulating Supply: </span>{data[16].circulating_supply}</li>
-                <li><span>Explorer: </span><a href='' >explorer.nearprotocol.com</a></li> */}
+                <li><span></span>{data.data.collections[0].collection_id}</li>
+                <li><span></span>{(data.data.collections[0].total_sum / 1000000000000000000000000).toFixed(2)}</li>
+                <li><span></span>{data.data.collections[1].collection_id}</li>
+                <li><span></span>{(data.data.collections[1].total_sum / 1000000000000000000000000).toFixed(2)}</li>
+                <li><span></span>{data.data.collections[2].collection_id}</li>
+                <li><span></span>{(data.data.collections[2].total_sum / 1000000000000000000000000).toFixed(2)}</li>
+                <li><span></span>{data.data.collections[3].collection_id}</li>
+                <li><span></span>{(data.data.collections[3].total_sum / 1000000000000000000000000).toFixed(2)}</li>
+                <li><span></span>{data.data.collections[4].collection_id}</li>
+                <li><span></span>{(data.data.collections[4].total_sum / 1000000000000000000000000).toFixed(2)}</li>
+                <li><span></span>{data.data.collections[5].collection_id}</li>
+                <li><span></span>{(data.data.collections[5].total_sum / 1000000000000000000000000).toFixed(2)}</li>
+                <li><span></span>{data.data.collections[6].collection_id}</li>
+                <li><span></span>{(data.data.collections[6].total_sum / 1000000000000000000000000).toFixed(2)}</li>
+                <li><span></span>{data.data.collections[7].collection_id}</li>
+                <li><span></span>{(data.data.collections[7].total_sum / 1000000000000000000000000).toFixed(2)}</li>
+                <li><span></span>{data.data.collections[8].collection_id}</li>
+                <li><span></span>{(data.data.collections[8].total_sum / 1000000000000000000000000).toFixed(2)}</li>
+                <li><span></span>{data.data.collections[9].collection_id}</li>
+                <li><span></span>{(data.data.collections[9].total_sum / 1000000000000000000000000).toFixed(2)}</li>
             </div>
         </div>
     );

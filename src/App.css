@@ -74,12 +74,16 @@
 
 }
 
-.banner-item img{
+.banto {
+  display: block;
+  position: relative;
+}
+
+.banto .banner-item{
   float: right;
   position: relative;
-  display: block;
   margin-right: 250px;
-  margin-top: 76px;
+
 }
 
 .banner-item1 img {
@@ -273,9 +277,9 @@
 
 .service .group9 {
   float: right;
-  margin-right: -100px;
+  margin-right: -50px;
   margin-top: -15px;
-  width: 300px;
+  width: 280px;
 }
 
 .service-header {
@@ -307,7 +311,7 @@
 
 .service-text {
   width: 250px;
-  
+
 }
 
 .ellipse {
@@ -416,7 +420,6 @@
   position: relative;
   float: right;
   margin-top: -140px;
-  margin-right: 50px;
   height: 40px;
 }
 
@@ -705,7 +708,7 @@
   }
 }
 
-@media screen and (max-width: 1247px) {
+@media screen and (max-width: 1100px) {
   .navMenu {
     display: none;
     transition: all 1s ease-out;
@@ -767,7 +770,13 @@
   }
   .banner-item {
     width: 200px;
-    margin-left: 930px;
+
+  }
+}
+
+@media screen and (max-width: 1503px) {
+  .banner-item {
+    width: 200px;
 
   }
 }
@@ -775,17 +784,124 @@
 @media screen and (max-width: 1264px) {
   .banner-item {
     width: 200px;
-    margin-left: 930px;
 
   }
 }
 
 @media screen and (max-width: 1247px) {
-  .service .group9 {
+  .service .group9, .content .group8 {
     visibility: hidden;
   }
   .service-text{
     margin-right: -100px;
     padding-left: 50px;
+  }
+  .about-header h6 {
+    font-size: 60px;
+  }
+  .about-header span {
+    width: 300px;
+    font-size: 14px;
+  }
+  .about-content img {
+    width: 500px;
+  }
+  .about-content {
+    margin-right: -50px;
+  }
+  .about-text {
+    font-size: 13px;
+    width: 510px;
+  }
+  .about {
+    height: 600px;
+  }
+}
+
+
+@media screen and (max-width: 1100px) {
+  .banner-item1 {
+    visibility: hidden;
+  }
+  .banto {
+    text-align: center;
+  }
+  .banto .banner-item {
+    justify-content: center;
+    display: block;
+    position: relative;
+    margin-right: 400px;
+    margin-bottom: -20px;
+    z-index: 1;
+  }
+  .banner-text, .banner-item {
+    text-align: center;
+    display: block;
+    justify-content: center;
+    margin-left: 0px;
+  }
+  .banner-text {
+    margin-top: -120px;
+  }
+  .banner-text h1 {
+    padding-top: 300px;
+    margin-bottom: -10px;
+  }
+  .banner-text h2 {
+    margin-bottom: -10px;
+  }
+  .banner-text h3 {
+    justify-content: center;
+    text-align: center;
+    display: block;
+    margin-left: 300px;
+  }
+  .banner {
+    height: 600px;
+  }
+  .banner #register a {
+    margin-left: 0%;
+  }
+  .recentlisting-body {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  .per-list {
+    position: relative;
+    margin-bottom: 30px;
+  }
+  .recentlisting {
+    height: 1600px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* for reducing the padding when getting to mobile */
+
+
+@media screen and (min-width: 1100px) {
+  .about, .footer, .service, .recentlisting, .patners, .nearchart, .navbar {
+    padding: 0px 50px 0px 50px;
   }
 }

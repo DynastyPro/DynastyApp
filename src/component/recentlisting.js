@@ -34,6 +34,13 @@ function RecentListing() {
                     <img src={group24} alt="" className='star' />
                     <div id='register'><a href="#">Learn more...</a></div>
                 </div>
+                <div className='per-list'>
+                    <img src={image1} alt="" />
+                    <span>Collection Name</span>
+                    <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisis erat elementum mauris egestas risus justo pulvinar morbi integer. Condimentum ipsum ac ullamcorper.</h1>
+                    <img src={group24} alt="" className='star' />
+                    <div id='register'><a href="#">Learn more...</a></div>
+                </div>
             </div>
             <div className='register' id='register'><a href="#">See more...</a></div>
         </div>
