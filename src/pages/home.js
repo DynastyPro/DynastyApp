@@ -9,20 +9,20 @@ import About from '../component/about';
 import Patners from '../component/patners';
 import Footer from '../component/footer';
 
-function App() {
+function Home() {
   return (
 
     <div className=''>
       <Navbar />
       <Banner />
-      <Nearchart />
-      <RecentListing />
-      <Ourservice />
-      <About />
-      <Patners />
-      <Footer />
+      {/* <Nearchart /> */}
+      {/* <RecentListing /> */}
+      {/* <Ourservice /> */}
+      {/* <About /> */}
+      {/* <Patners /> */}
+      {/* <Footer /> */}
     </div>
   );
 }
 
-export default App;
+export default Home;
