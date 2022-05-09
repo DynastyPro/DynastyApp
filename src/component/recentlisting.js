@@ -1,7 +1,7 @@
 import React from 'react';
 import image2 from '../images/image2.jpg';
 import '../styles/Listing.css'
-import {listData} from '../data'
+import { listData } from '../data'
 import ListItem from './ListItem';
 
 
