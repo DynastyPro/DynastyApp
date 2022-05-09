@@ -1,0 +1,31 @@
+
+.nearchart {
+    height: 40px;
+    padding: 0px 100px 20px 100px;
+    /* margin: 0px 100px 0px 100px; */
+    justify-content: center;
+    border-bottom: rgba(4, 4, 41, 0.3) solid 0.1px;
+    position: relative;
+    display: flex;
+  }
+  
+  .nearchart .text {
+    position: relative;
+    display: flex;
+    list-style: none;
+    font-size: 12px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .nearchart .text li {
+    padding-left: 30px;
+    color: #040429;
+  }
+  
+  .nearchart .text li span {
+    color: rgba(4, 4, 41, 0.5);
+  }
+  
+  

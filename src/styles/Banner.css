@@ -1,114 +1,94 @@
-
 .banner {
-    position: relative;
-    /* height: 480px; */
-    /* left: 0px;
-    top: 0px; */
-    /* margin: 0px 100px 0px 100px; */
-    /* padding: 0px 100px 0px 100px; */
-    /* position: relative; */
-    /* background-color: rgba(4, 4, 41, 0.05); */
-  
+  display: flex;
+  padding: 60px 100px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.banner-item {
+  position: absolute;
+  top: 110px;
+}
+
+.banner-text h1 {
+  margin-top: 40px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 75px;
+  color: #040429;
+}
+
+.banner-text h2 {
+  margin-top: 20px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #040429;
+}
+
+.banner-text h3 {
+  margin-top: 10px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+  color: #040429;
+}
+
+.register{
+  font-style: normal;
+font-weight: 600;
+  margin-top: 20px;
+  padding: 10px 40px;
+  background: #040429;
+border-radius: 5px;
+width: fit-content;
+color: #FFFFFF;
+}
+
+@media screen and (max-width: 900px) {
+  .banner {
+    flex-direction: column-reverse;
+    padding: 70px 10px;
+ 
   }
-  
-  .banto {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-  }
-  
-  .banto .banner-item{
-    /* float: right;
-    position: relative;
-    margin-right: 250px; */
-  
-  }
-  
-  .banner-item1 img {
-    /* margin-left: 200px;
-    margin-top: 30px; */
-  }
-  
-  /* .banner-text {
-    margin-top: -30px;
-    margin-left: 250px;
-    color: #040429;
-  } */
-  
-  .banner-text h1 {
-    /* font-size: 50px;
-    font-weight: 800;
-    margin-bottom: -5px; */
-  }
-  
-  .banner-text h2 {
-    /* font-size: 20px;
-    font-weight: 600; */
-  }
-  
-  .banner-text h3 {
-    /* font-size: 15px;
-    font-weight: 400;
-    width: 400px; */
-  }
-  
-  .banner #register a {
-    text-decoration: none;
-    margin-left: 250px;
-  }
-  
-  .banner #register {
-    margin-top: 30px;
-  }
-  
-  
-  /* Banner 2 */
-  
-  
-  .banner2-text {
+
+  .banner-text{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
     text-align: center;
-    display: block;
-    margin-top: 70px;
-    color: #040429;
-  }
-  
-  .banner2-text h1 {
-    text-align: center;
-    font-size: 80px;
-    font-weight: 800;
-    margin-bottom: -5px;
-  }
-  
-  .banner2-text h3 {
-    text-align: center;
-    font-size: 15px;
-    font-weight: 400;
-    z-index: 1;
-  }
-  
-  .banner2-item2 img {
-    float: right;
-  }
-  
-  .banner2-item3 img {
-    float: left;
-    width: 600px;
-    margin-right: -200px;
-    margin-top: -100px !important;
-  }
-  
-  .banner2-item1 img {
-    margin-left: 300px;
-    padding-top: 30px;
-  }
-  
-  .banner2 {
+    justify-content: center;
     align-items: center;
-    padding: 0 !important;
+  }
+
+  .banner-text h1{
+    font-size: 30px;
+  }
+
+  .banner-image img{
+    width: 250px;
   }
   
-  .banner2 img {
-    position: relative;
+
+  .banner-item{
+    display: none;
   }
-  
-  
+
+  .register{
+
+  }
+
+  .banner-text h3 {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .banner-text h3 br{
+    display: none;
+  }
+}

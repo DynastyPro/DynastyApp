@@ -15,6 +15,9 @@
 nav {
   display: flex;
   align-items: center;
+  position: sticky;
+  z-index: 1;
+  top: 0;
 }
 
 .mobile-con{
@@ -76,7 +79,7 @@ margin: 0 20px;
 
  .mobile-con{
    justify-content: space-between;
-   width:90%;
+   width:100%;
    padding: 15px ;
  }
 
@@ -89,17 +92,18 @@ margin: 0 20px;
   nav {
     position: fixed;
     width: 200px;
-    height: 250px;
+    /* height: 270px; */
     /* top: 0; */
     top: -100%;
     /* left: -100%; */
     display: block;
     background-color: #040429;
     transition: all 0.4s ease-out;
-    padding: 20px;
+    padding:30px 20px;
     display: flex;
     flex-direction: column;
-
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
   }
 
   .active{

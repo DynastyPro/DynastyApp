@@ -1,5 +1,3 @@
-// import logo from '../logo.svg';
-import '../App.css';
 import Navbar from '../component/navbar';
 import Banner from '../component/banner';
 import Nearchart from '../component/nearchart';
@@ -12,16 +10,16 @@ import Footer from '../component/footer';
 function Home() {
   return (
 
-    <div className=''>
+    <>
       <Navbar />
-      <Banner />
-      {/* <Nearchart /> */}
-      {/* <RecentListing /> */}
+      <Banner/>
+      <Nearchart />
+      <RecentListing />
       {/* <Ourservice /> */}
       {/* <About /> */}
       {/* <Patners /> */}
       {/* <Footer /> */}
-    </div>
+    </>
   );
 }
 
