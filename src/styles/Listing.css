@@ -9,6 +9,7 @@
 
 .recentlisting-header {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -36,9 +37,21 @@
   padding: 0 70px;
 }
 
-.recentlisting-body img {
-  width: 303px;
-  height: 180px;
-  border-radius: 20px;
+.more-con{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  margin: 40px 0 20px  0;
+}
+
+.more{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 30px;
+  background: black;
+  color: #FFFFFF;
+  font-size: 20px;
+  border-radius: 8px;
 }
 

@@ -8,10 +8,10 @@ import image1 from '../images/image1.jpg';
 function ListItem({item}) {
   return (
     <div className='per-list'>
-    <img src={image1} alt="" />
+    <img src={image1} alt=""  className='cover'/>
     <span>{item.name}</span>
     <h1>{item.content}</h1>
-    <img src={group24} alt="" className='star' />
+    <img src={group24} alt="" className='star'/>
     <div><Link to='/'>Learn more...</Link></div>
 </div>
   )

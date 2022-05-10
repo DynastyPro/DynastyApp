@@ -3,6 +3,7 @@ import image2 from '../images/image2.jpg';
 import '../styles/Listing.css'
 import { listData } from '../data'
 import ListItem from './ListItem';
+import {Link} from 'react-router-dom'
 
 
 function RecentListing() {
@@ -20,7 +21,10 @@ function RecentListing() {
                 }
                 
                </div>
-            <div><a href="#">See more...</a></div>
+               <div className='more-con'>
+               <div className='more'><Link to='/'>See more...</Link></div>
+
+               </div>
         </div>
      );
 }

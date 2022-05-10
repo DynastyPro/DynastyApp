@@ -3,6 +3,12 @@
     width: 303px;
   
   }
+  .per-list .cover {
+    width: 303px;
+    height: 180px;
+    border-radius: 20px;
+    object-fit: cover;
+  }
   
   .per-list span {
       margin: 10px 0;
