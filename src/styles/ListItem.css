@@ -1,0 +1,38 @@
+
+.per-list {
+    width: 303px;
+  
+  }
+  .per-list .cover {
+    width: 303px;
+    height: 180px;
+    border-radius: 20px;
+    object-fit: cover;
+  }
+  
+  .per-list span {
+      margin: 10px 0;
+    text-align: left;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18.2157px;
+    line-height: 27px;
+    color: #040429;
+  }
+  
+  .per-list h1 {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12.1438px;
+      line-height: 18px;
+      
+      /* Main */
+      
+      color: #040429;
+  }
+  
+  .per-list .star {
+      height: 40px;
+    width: 130px;
+  }

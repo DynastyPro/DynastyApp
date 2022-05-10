@@ -1,5 +1,3 @@
-// import logo from '../logo.svg';
-import '../App.css';
 import Navbar from '../component/navbar';
 import Banner from '../component/banner';
 import Nearchart from '../component/nearchart';
@@ -10,12 +8,12 @@ import Patners from '../component/patners';
 import Footer from '../component/footer';
 import Testing2 from '../component/testing2';
 
-function App() {
+function Home() {
   return (
 
-    <div className=''>
+    <>
       <Navbar />
-      <Banner />
+      <Banner/>
       <Nearchart />
       <RecentListing />
       <Ourservice />
@@ -27,4 +25,4 @@ function App() {
   );
 }
 
-export default App;
+export default Home;
