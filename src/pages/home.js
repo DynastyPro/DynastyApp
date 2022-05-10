@@ -8,6 +8,7 @@ import Ourservice from '../component/ourservice';
 import About from '../component/about';
 import Patners from '../component/patners';
 import Footer from '../component/footer';
+import Testing2 from '../component/testing2';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Nearchart />
       <RecentListing />
       <Ourservice />
+      <Testing2 />
       <About />
       <Patners />
       <Footer />
