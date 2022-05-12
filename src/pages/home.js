@@ -15,7 +15,7 @@ function Home() {
       <Banner/>
       <Nearchart />
       <RecentListing />
-      {/* <Ourservice /> */}
+      <Ourservice />
       {/* <About /> */}
       {/* <Patners /> */}
       {/* <Footer /> */}

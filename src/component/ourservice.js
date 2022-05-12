@@ -1,11 +1,10 @@
 import React from 'react';
-import '../App.css';
-import group9 from '../images/group9.svg';
+import '../styles/Service.css'
 
 function Ourservice() {
   return (
     <div className='service'>
-        <img src={group9} alt="" className='group9' />
+        {/* <img src={group9} alt="" className='group9' /> */}
         <div className='service-header'>
             <h6>Our <br/> Service</h6>
             <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </span>

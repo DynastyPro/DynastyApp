@@ -1,0 +1,107 @@
+
+.service {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(4, 4, 41, 0.05);
+    padding: 60px 100px;
+    /* height: 500px;
+  
+    position: relative; */
+    /* padding: 0px 100px 20px 100px; */
+    /* margin: 0px 100px 0px 100px; */
+    /* margin-bottom: 40px; */
+  }
+
+  .service h6 {
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 800;
+font-size: 51.871px;
+line-height: 78px;
+
+/* Main */
+
+color: #040429;
+  }
+  
+  .service .group9 {
+    /* float: right;
+    margin-right: -50px;
+    margin-top: -15px;
+    width: 280px; */
+  }
+  
+  .service-header {
+    flex: 1;
+
+  }
+  
+
+  
+ .service-header span {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12.9677px;
+    line-height: 19px;
+    
+    /* Main */
+    
+    color: #040429;
+  }
+  
+  .service .service-content {
+    flex:1 ;
+    display: flex;
+  
+  }
+  
+  .service-text {
+    width: 250px;
+  
+  }
+  
+  .ellipse {
+    margin-bottom: 20px;
+    width: 60px;
+    height: 60px;
+   
+    border-radius: 50%;
+    background-color: #040429;
+  }
+  
+  .service-text h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 22px;
+
+    color: #040429;
+  }
+  
+  .service-text span {
+    font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+  }
+  
+  @media screen and (max-width:900px){
+    .service{
+      flex-direction: column;
+      padding: 20px 40px;
+      justify-content: center;
+    }
+    .service-header {
+    margin-bottom: 30px;
+  
+    }
+
+    .service .service-content {
+      flex-direction: column;
+    
+    }
+    .service-text{
+      margin: 20px 0;
+    }
+  }
+  

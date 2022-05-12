@@ -6,7 +6,6 @@
 
 .recentlisting-header {
   display: flex;
-  flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -30,6 +29,8 @@
 .recentlisting-body {
   margin-top: 40px;
   display: flex;
+  flex-wrap: wrap;
+  /* flex-direction: column; */
   justify-content: space-between;
   padding: 0 70px;
 }
@@ -50,5 +51,18 @@
   color: #FFFFFF;
   font-size: 20px;
   border-radius: 8px;
+  cursor: pointer;
 }
 
+.more a{
+  cursor: pointer;
+}
+
+
+@media screen and (max-width:900px) {
+  .recentlisting-body{
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+}
