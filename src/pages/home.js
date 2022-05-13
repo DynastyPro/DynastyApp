@@ -17,7 +17,7 @@ function Home() {
       <RecentListing />
       <Ourservice />
       <About />
-      {/* <Patners /> */}
+      <Patners />
       {/* <Footer /> */}
     </>
   );
