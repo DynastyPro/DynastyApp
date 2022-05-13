@@ -26,3 +26,18 @@ color: #040429;
     border-radius: 10px;
     cursor: pointer;
 }
+
+@media screen and (max-width:900px){
+   .patners{
+    flex-direction: column;
+   }
+
+   .patners-logo{
+       display: flex;
+       flex-direction: column;
+   }
+
+   .patners-logo div{
+       margin: 20px 0;
+   }
+}

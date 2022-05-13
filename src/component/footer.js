@@ -3,6 +3,7 @@ import "../styles/Footer.css";
 import group4 from "../images/group4.svg";
 import {FaDiscord} from 'react-icons/fa'
 import {BiCopyright} from 'react-icons/bi'
+import {BsChevronRight} from 'react-icons/bs'
 import {FiGlobe, FiTwitter} from 'react-icons/fi'
 
 
@@ -30,7 +31,7 @@ function Footer() {
         <div className="footer-widget-right">
           <form onSubmit={onclick}>
             <input type="text" placeholder="Email address" />
-            <button type="submit">sub</button>
+            <button type="submit" className="submit"><BsChevronRight/></button>
           </form>
         </div>
       </div>
