@@ -5,12 +5,7 @@
     justify-content: space-between;
     background-color: rgba(4, 4, 41, 0.05);
     padding: 60px 100px;
-    /* height: 500px;
   
-    position: relative; */
-    /* padding: 0px 100px 20px 100px; */
-    /* margin: 0px 100px 0px 100px; */
-    /* margin-bottom: 40px; */
   }
 
   .service h6 {
@@ -25,13 +20,7 @@ line-height: 78px;
 color: #040429;
   }
   
-  .service .group9 {
-    /* float: right;
-    margin-right: -50px;
-    margin-top: -15px;
-    width: 280px; */
-  }
-  
+
   .service-header {
     flex: 1;
 
@@ -65,9 +54,16 @@ color: #040429;
     margin-bottom: 20px;
     width: 60px;
     height: 60px;
-   
+   display: flex;
+   justify-content: center;
+   align-items: center;
     border-radius: 50%;
     background-color: #040429;
+  }
+
+  .ellipse .icon{
+    color: #FFFFFF;
+    font-size: 25px;
   }
   
   .service-text h1 {
@@ -83,6 +79,15 @@ color: #040429;
     font-weight: 400;
 font-size: 12px;
 line-height: 18px;
+  }
+
+  @media screen and (max-width:1200px){
+    .service{
+      padding:40px 20px;
+    }
+    .service-text{
+      width: 200px;
+    }
   }
   
   @media screen and (max-width:900px){

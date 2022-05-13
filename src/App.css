@@ -1,69 +1,4 @@
-/* .App {
-  text-align: center;
-} */
-/* My style */
 
-
-/* Banner */
-
-
-
-/* NearChart */
-
-/* About */
-
-.about {
-  padding: 0px 100px 20px 100px;
-  /* margin: 0px 100px 0px 100px; */
-  height: 700px;
-  background-color: rgba(4, 4, 41, 0.05);
-  position: relative;
-}
-
-.about .group8 {
-  margin-left: -200px;
-  margin-top: 50px;
-  width: 350px;
-}
-
-.content {
-  padding-top: 40px;
-}
-
-.about-content {
-  width: 600px;
-  float: right;
-  margin-top: 50px;
-  margin-right: 90px;
-}
-
-.about-content h4 {
-  font-weight: 500;
-}
-
-.about-header {
-  position: absolute;
-  top: 0;
-  width: 1000px;
-}
-
-.about h6 {
-  font-size: 80px;
-  font-weight: 800;
-  margin-left: 100px;
-  margin-bottom: 0;
-}
-
-.about .about-header span {
-  position: absolute;
-  width: 200px;
-  margin-left: 100px;
-}
-
-.about-header #register {
-  margin-left: 100px;
-  margin-top: 70px;
-}
 
 
 /* Our Service */
@@ -71,14 +6,13 @@
 
 /* Patners */
 
-.patners {
+/* .patners {
   height: 200px;
   position: relative;
   padding: 0px 100px 20px 100px;
-  /* margin: 0px 100px 0px 100px; */
-}
+} */
 
-.patners .patners-text {
+/* .patners .patners-text {
   padding-top: 5px;
   padding-left: 80px;
 }
@@ -114,7 +48,6 @@
   display: block;
   justify-content: center;
   padding: 0px 200px 0px 200px;
-  /* margin: 0px 100px 0px 100px; */
 }
 
 .footer .group4 {
@@ -176,7 +109,7 @@
   background-color: #040429;
   color: #ffffff;
   border-radius: 0px 10px 10px 0px;
-}
+} */
 
 
 /* Recent Listing */
@@ -185,7 +118,7 @@
 
 /* Collection */
 
-
+/* 
 .collection {
   position: relative;
   padding: 0px 350px 20px;
@@ -229,11 +162,11 @@
 .collection-text #register {
   margin-top: 20px;
   font-size: 10px;
-}
+} */
 
 
 /* AbouUs */
-
+/* 
 .about-us {
   text-align: center;
   position: relative;
@@ -291,16 +224,16 @@
 .textin .we {
   display: inline-block;
   position: relative;
-}
-
+} */
+/* 
 .textin #register {
   font-size: 10px;
-}
+} */
 
 
 /* Listed Banner */
 
-
+/* 
 .listed {
   height: 480px;
   left: 0px;
@@ -328,7 +261,7 @@
   z-index: 1;
 }
 
-
+ */
 
 
 

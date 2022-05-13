@@ -16,7 +16,7 @@ function Home() {
       <Nearchart />
       <RecentListing />
       <Ourservice />
-      {/* <About /> */}
+      <About />
       {/* <Patners /> */}
       {/* <Footer /> */}
     </>
