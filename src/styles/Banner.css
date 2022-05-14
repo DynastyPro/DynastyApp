@@ -3,6 +3,7 @@
   padding: 60px 100px;
   align-items: center;
   justify-content: space-between;
+  background: rgba(4, 4, 41, 0.05);
 }
 
 .banner-item {

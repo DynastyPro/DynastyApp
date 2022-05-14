@@ -21,18 +21,17 @@ const Nearchart = () => {
     if(!data) return null
 
     return (
-        <div className='nearchart'>
-            <marquee>
-                <div className='text'>
-                    <li><span>Price: </span>{data.market_data.current_price.usd}</li>
-                    <li><span>Exchange: </span>{data.name}</li>
-                    <li><span>Market Cap: </span>{data.market_data.market_cap.usd}</li>
-                    <li><span>24hrs Volume: </span>{data.market_data.total_volume.usd}</li>
-                    <li><span>Total Supply: </span>{data.market_data.max_supply}</li>
-                    <li><span>Circulating Supply: </span>{data.market_data.circulating_supply}</li>
-                    <li><span>Explorer: </span><a href='' >{data.links.blockchain_site[0]}</a></li>
-                </div>
-            </marquee>
+        <div className='near-chart'>
+            <div className='api-content'>
+                    <div className='content'><span>Price: </span>{data.market_data.current_price.usd}</div>
+                    <div className='content'><span>Exchange: </span>{data.name}</div>
+                    <div className='content'><span>Market Cap: </span>{data.market_data.market_cap.usd}</div>
+                    <div className='content'><span>24hrs Volume: </span>{data.market_data.total_volume.usd}</div>
+                    <div className='content'><span>Total Supply: </span>{data.market_data.max_supply}</div>
+                    <div className='content'><span>Circulating Supply: </span>{data.market_data.circulating_supply}</div>
+                    <div className='content'><span>Explorer: </span><a href='' >{data.links.blockchain_site[0]}</a></div>
+             
+            </div>
         </div>
     );
 }
