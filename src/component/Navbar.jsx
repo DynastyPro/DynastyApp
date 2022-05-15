@@ -20,6 +20,9 @@ function Navbar() {
       </div>
       <nav className={`${click? 'active' : null}`}>
         <div className="nav-links">
+          <Link to="/">Home</Link>
+        </div>
+        <div className="nav-links">
           <Link to="/listing">Listing</Link>
         </div>
         <div className="nav-links">
