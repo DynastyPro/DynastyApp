@@ -1,6 +1,6 @@
 import React from 'react';
-import '../styles/AboutUs.css'
-import image3 from '../images/image3.png';
+import '../Styles/AboutUs.css'
+import image3 from '../Images/image3.png';
 import {Link} from 'react-router-dom'
 import {FaDiscord} from 'react-icons/fa'
 import {FiGlobe, FiTwitter} from 'react-icons/fi'

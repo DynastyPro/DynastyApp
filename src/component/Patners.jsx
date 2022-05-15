@@ -1,6 +1,6 @@
 import React from "react";
-import '../styles/Partners.css'
-import mintyplex from "../images/minty.png";
+import '../Styles/Partners.css'
+import mintyplex from "../Images/minty.png";
 
 function Patners() {
   return (

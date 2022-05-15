@@ -1,6 +1,6 @@
 import axios from 'axios';
 import React, { useState, useEffect } from 'react';
-import '../styles/NearChart.css'
+import '../Styles/NearChart.css'
 
 const Nearchart = () => {
 

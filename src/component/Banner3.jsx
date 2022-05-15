@@ -1,8 +1,8 @@
 import React from 'react';
-import '../styles/Banner3.css'
-import group6 from '../images/group6.svg';
-import group14 from '../images/group14.svg';
-import group15 from '../images/group15.svg';
+import '../Styles/Banner3.css'
+import group6 from '../Images/group6.svg';
+import group14 from '../Images/group14.svg';
+import group15 from '../Images/group15.svg';
 
 function Banner3() {
   return (

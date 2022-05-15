@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/Listing.css";
+import "../Styles/Listing.css";
 import { listData } from "../data";
 import ListItem from "./ListItem";
 import { Link } from "react-router-dom";

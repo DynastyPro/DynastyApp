@@ -1,7 +1,6 @@
 import React from "react";
-import "../styles/About.css";
-import group7 from "../images/group7.svg";
-import group8 from "../images/group8.svg";
+import "../Styles/About.css";
+import group7 from "../Images/group7.svg";
 import { Link } from "react-router-dom";
 
 function About() {

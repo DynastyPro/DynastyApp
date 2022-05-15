@@ -1,12 +1,12 @@
-.banner-text {
+.banner2-text {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 100px 0;
+  padding: 105px 0;
 }
 
-.banner-text h1 {
+.banner2-text h1 {
   font-family: Poppins;
   font-style: normal;
   font-weight: 700;
@@ -34,10 +34,10 @@
 
 
 @media screen and (max-width:900px){
-    .banner-text{
+    .banner2-text{
         padding: 70px 0;
     }
-    .banner-text h1{
+    .banner2-text h1{
         font-size: 30px;
         line-height: 40px;
         padding: 0;

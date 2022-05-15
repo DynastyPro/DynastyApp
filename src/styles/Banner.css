@@ -8,7 +8,12 @@
 
 .banner-item {
   position: absolute;
-  top: 110px;
+  top: 100px;
+}
+
+.banner-text{
+  text-align: left;
+  margin-top: 40px;
 }
 
 .banner-text h1 {
