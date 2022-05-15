@@ -12,7 +12,7 @@ function Navbar() {
   return (
     <div className='navbar'>
       <div className="mobile-con">
-        <div><img src={dynastylogo} alt="" /></div>
+        <Link to='/'><img src={dynastylogo} alt="" /></Link>
         <div className="menu-icon"onClick={handleClick}>
           {click? <FaTimes/> : <FaBars/>}
         </div>

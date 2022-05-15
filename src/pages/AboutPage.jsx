@@ -1,9 +1,9 @@
 // import logo from '../logo.svg';
 import '../App.css';
-import Navbar from '../component/navbar';
-import Banner3 from '../component/banner3';
-import AboutUs from '../component/about-us';
-import Footer from '../component/footer';
+import Navbar from '../component/Navbar';
+import Banner3 from '../component/Banner3';
+import AboutUs from '../component/AboutUs';
+import Footer from '../component/Footer';
 
 function AboutPage() {
   return (
