@@ -3,7 +3,9 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
   padding: 105px 0;
+  background: rgba(4, 4, 41, 0.05);
 }
 
 .banner2-text h1 {
