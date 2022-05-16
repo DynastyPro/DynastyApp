@@ -21,7 +21,7 @@ function Home() {
       <About />
       <Patners />
       <Footer />
-    </div>
+    </>
   );
 }
 
