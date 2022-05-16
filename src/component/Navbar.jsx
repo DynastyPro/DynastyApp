@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import dynastylogo from "../images/dynasty.svg";
-import "../styles/Navbar.css";
+import dynastylogo from "../Images/dynasty.svg";
+import "../Styles/Navbar.css";
 
 import { Link } from "react-router-dom";
 import {FaBars, FaTimes} from 'react-icons/fa'
@@ -12,13 +12,16 @@ function Navbar() {
   return (
     <div className='navbar'>
       <div className="mobile-con">
-        <div><img src={dynastylogo} alt="" /></div>
+        <Link to='/'><img src={dynastylogo} alt="" /></Link>
         <div className="menu-icon"onClick={handleClick}>
           {click? <FaTimes/> : <FaBars/>}
         </div>
 
       </div>
       <nav className={`${click? 'active' : null}`}>
+        <div className="nav-links">
+          <Link to="/">Home</Link>
+        </div>
         <div className="nav-links">
           <Link to="/listing">Listing</Link>
         </div>

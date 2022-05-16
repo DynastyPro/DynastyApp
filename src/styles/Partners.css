@@ -1,0 +1,43 @@
+.patners{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 100px;
+}
+
+.patners-text h1{
+    font-style: normal;
+font-weight: 800;
+font-size: 57.0409px;
+line-height: 86px;
+color: #040429;
+}
+
+.patners-logo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.patners-logo div{
+    margin: 10px 20px;
+    padding: 10px 20px;
+    background: rgba(4, 4, 41, 0.05);
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:900px){
+   .patners{
+    flex-direction: column;
+   }
+
+   .patners-logo{
+       display: flex;
+       flex-direction: column;
+   }
+
+   .patners-logo div{
+       margin: 20px 0;
+   }
+}

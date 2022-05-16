@@ -1,16 +1,17 @@
 
 .per-list {
-    width: 303px;
+    max-width: 300px;
+    flex-direction: column;
   
   }
   .per-list .cover {
-    width: 303px;
+    width: 300px;
     height: 180px;
     border-radius: 20px;
     object-fit: cover;
   }
   
-  .per-list span {
+  .per-list div {
       margin: 10px 0;
     text-align: left;
     font-family: "Poppins";
@@ -35,4 +36,15 @@
   .per-list .star {
       height: 40px;
     width: 130px;
+  }
+
+  @media screen and (max-width:900px) {
+    .per-list{
+      max-width: 280px;
+
+    }
+    .per-list .cover {
+      width: 290px;
+   ;
+    }
   }

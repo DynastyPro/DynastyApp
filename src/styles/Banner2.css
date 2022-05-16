@@ -1,0 +1,53 @@
+.banner2-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 105px 0;
+  background: rgba(4, 4, 41, 0.05);
+}
+
+.banner2-text h1 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 120px;
+  color: #000000;
+  margin: 0;
+}
+
+.banner2 .banner2-img{
+    position: absolute;
+    left: 100px;
+    top: 100px;
+}
+.banner2 .banner2-img1{
+    position: absolute;
+    right: 0;
+    top: 100px;
+}
+.banner2 .banner2-img2{
+    position: absolute;
+    left: 0;
+    top: 34px;
+}
+
+
+@media screen and (max-width:900px){
+    .banner2-text{
+        padding: 70px 0;
+    }
+    .banner2-text h1{
+        font-size: 30px;
+        line-height: 40px;
+        padding: 0;
+
+
+    }
+
+    .banner2-img, .banner2-img1, .banner2-img2{
+        display: none;
+    }
+}
