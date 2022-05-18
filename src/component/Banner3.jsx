@@ -1,27 +1,27 @@
 import React from 'react';
-import '../Styles/Banner3.css'
 import group6 from '../Images/group6.svg';
 import group14 from '../Images/group14.svg';
 import group15 from '../Images/group15.svg';
+import '../Styles/Banner2.css';
 
-function Banner3() {
+function Banner2() {
   return (
-    <div className='banner3'>
-      <div className='img1'>
+    <div className='banner2'>
+      <div className='banner2-img'>
         <img src={group6} alt="" />
       </div>
-      <div className='img2'>
+      <div className='banner2-img1'>
         <img src={group14} alt="" />
       </div>
-      <div className='img3'>
+      <div className='banner2-img2'>
         <img src={group15} alt="" />
       </div>
-      <div className='text'>
+      <div className='banner2-text'>
         <h1>ABOUT-US</h1>
-        <h3>Lorem ipsum dolor sit amet, consectetur. </h3>
+        <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </h3>
       </div>
     </div>
   );
 }
 
-export default Banner3;
+export default Banner2;

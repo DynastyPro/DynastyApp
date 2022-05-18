@@ -1,5 +1,5 @@
 .aboutus{
-    padding: 40px;
+    padding: 40px 200px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -11,16 +11,12 @@
 }
 
 .about-text{
-    margin: 40px 0;
+    margin: 40px 100px;
     padding: 0 60px;
     display:flex;
     align-items: center;
     justify-content: space-around;
 }
-
-
-
-
 
 .about-text-content{
     font-weight: 500;

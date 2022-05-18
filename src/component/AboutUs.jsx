@@ -35,11 +35,11 @@ function AboutUs() {
           </div>
         
       </div>
-      <div className="social">
+      {/* <div className="social">
               <FaDiscord className="icon"/>
               <FiGlobe className="icon"/>
               <FiTwitter className="icon"/>
-          </div>
+      </div> */}
       
     </div>
   );

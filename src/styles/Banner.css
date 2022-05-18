@@ -1,6 +1,6 @@
 .banner {
   display: flex;
-  padding: 60px 100px;
+  padding: 60px 200px;
   align-items: center;
   justify-content: space-between;
   background: rgba(4, 4, 41, 0.05);
@@ -96,5 +96,11 @@ color: #FFFFFF;
   }
   .banner-text h3 br{
     display: none;
+  }
+}
+
+@media screen and (max-width:1200px){
+  .banner-text h3{
+    width: 400px;
   }
 }

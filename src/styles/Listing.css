@@ -1,5 +1,6 @@
 .recentlisting {
   width: 100%;
+  padding: 20px 200px;
 }
 
 
@@ -32,7 +33,7 @@
   flex-wrap: wrap;
   /* flex-direction: column; */
   justify-content: space-between;
-  padding: 0 70px;
+  /* padding: 0 70px; */
 }
 
 .more-con{
@@ -64,5 +65,16 @@
     padding: 10px;
     align-items: center;
     justify-content: center;
+  }
+}
+
+@media screen and (max-width:1024px) {
+  .recentlisting-body{
+    padding: 0px;
+  }
+}
+@media screen and (max-width:1000px) {
+  .recentlisting-body{
+    padding: 0px 150px;
   }
 }

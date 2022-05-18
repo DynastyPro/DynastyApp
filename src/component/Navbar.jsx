@@ -28,11 +28,11 @@ function Navbar() {
         <div className="nav-links">
           <Link to="/about">About</Link>
         </div>
-        <div className="nav-links">
+        {/* <div className="nav-links">
           <Link to="/contact">Contact</Link>
-        </div>
+        </div> */}
         <button id="register">
-          <Link to="/register">Register</Link>
+          <Link to="https://twitter.com/GreatPanNFT" target="blank">Register</Link>
         </button>
       </nav>
     </div>

@@ -1,10 +1,12 @@
 
 .service {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: rgba(4, 4, 41, 0.05);
-    padding: 60px 100px;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(4, 4, 41, 0.05);
+  padding: 60px 200px;
+  position: relative;
   
   }
 
@@ -23,7 +25,13 @@ color: #040429;
 
   .service-header {
     flex: 1;
+  }
 
+  .service-content {
+    position: relative;
+    display: flex;
+    justify-content: right;
+    align-items: center;
   }
   
 
@@ -33,21 +41,12 @@ color: #040429;
     font-weight: 400;
     font-size: 12.9677px;
     line-height: 19px;
-    
-    /* Main */
-    
     color: #040429;
-  }
-  
-  .service .service-content {
-    flex:1 ;
-    display: flex;
-  
-  }
-  
+  }  
+
   .service-text {
     width: 250px;
-  
+    padding-left: 50px;
   }
   
   .ellipse {
@@ -89,12 +88,22 @@ line-height: 18px;
       width: 200px;
     }
   }
+
+  @media screen and (max-width:1369px){
+    .service-text {
+      padding-left: 70px;
+    }
+    .service-header {
+      margin-top: -220px;
+    }
+}
   
   @media screen and (max-width:900px){
     .service{
       flex-direction: column;
       padding: 20px 40px;
       justify-content: center;
+      text-align: center;
     }
     .service-header {
     margin-bottom: 30px;
@@ -102,11 +111,87 @@ line-height: 18px;
     }
 
     .service .service-content {
-      flex-direction: column;
+      flex-direction: row;
+      text-align: left;
     
     }
     .service-text{
       margin: 20px 0;
     }
   }
-  
+
+  @media screen and (max-width:1235px){
+    .service-text{
+      padding-right: 50px;
+      margin-left: 20px;
+    }
+  }
+
+  @media screen and (max-width:1168px){
+    .service-text{
+      padding-right: 30px;
+      margin-left: 50px;
+    }
+    .service {
+      padding: 0px 200px;
+    }
+  }
+
+  @media screen and (max-width:963px){
+    .service{
+      padding: 0px 200px;
+    } 
+  }
+
+@media screen and (max-width:1235px){
+  .service{
+    padding: 0px 100px;
+  }
+}
+
+@media screen and (max-width:974px){
+  .service-text{
+    margin-left: 30px;
+  } 
+}
+
+@media screen and (max-width:749px){
+  .service{
+    position: relative;
+    display: block;
+    height: 550px;
+    padding-top: 30px;
+  }
+  .service-content {
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .service-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width:749px){
+  .service{
+    position: relative;
+    display: block;
+    height: 550px;
+    padding-top: 30px;
+  }
+  .service-content {
+    left: 0px !important;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .service-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}

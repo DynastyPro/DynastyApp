@@ -1,7 +1,7 @@
 import React from 'react'
 import {BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import About from './Pages/AboutPage'
-import Home from './Pages/Home'
+import Home from './Pages/Home.jsx'
 import ListingPage from './Pages/Listing'
 import Register from './Pages/Register'
 

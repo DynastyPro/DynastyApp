@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 40px 100px;
+    padding: 40px 200px;
 }
 
 .patners-text h1{
@@ -14,8 +14,9 @@ color: #040429;
 }
 
 .patners-logo{
+    position: relative;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .patners-logo div{
@@ -40,4 +41,46 @@ color: #040429;
    .patners-logo div{
        margin: 20px 0;
    }
+}
+
+@media screen and (max-width:1235px){
+    .patners{
+      padding: 0pc 200px;
+    }
+}
+
+@media screen and (max-width:963px){
+    .patners{
+      padding: 0px 200px;
+      padding-bottom: 30px;
+      display: block;
+      text-align: center;
+    }
+    .patners-logo {
+        justify-content: space-around;
+    }
+}
+
+@media screen and (max-width:974px){
+    .patners{
+      padding: 0px 200px;
+      padding-bottom: 30px;
+      display: block;
+      text-align: center;
+    }
+    .patners-logo {
+        justify-content: space-around;
+    }
+}
+
+@media screen and (max-width:1024px){
+    .patners{
+      padding: 0px 200px;
+      padding-bottom: 30px;
+      display: block;
+      text-align: center;
+    }
+    .patners-logo {
+        justify-content: space-around;
+    }
 }
