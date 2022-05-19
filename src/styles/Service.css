@@ -100,6 +100,7 @@ line-height: 18px;
   
   @media screen and (max-width:900px){
     .service{
+      height: 850px !important;
       display: flex;
       flex-direction: column;
       padding: 20px 0px;
@@ -111,16 +112,17 @@ line-height: 18px;
     }
     .service-content {
       display: flex;
-      flex-direction: row;
-      text-align: left;
-      justify-content: flex-end;
-      margin-left: -70px !important;
+      flex-direction: column;
+      /* justify-content: flex-end; */
     }
     .service-text {
       position: relative;
       display: flex;
-      flex-direction: row;
       justify-content: space-around;
+      text-align: center;
+      align-items: center;
+      padding: 10px 0px !important;
+      margin: 0px !important;
     }
   }
 
@@ -166,12 +168,6 @@ line-height: 18px;
     height: 550px;
     padding-top: 30px;
   }
-  .service-content {
-    position: absolute;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-  }
   .service-text {
     display: flex;
     flex-direction: column;
@@ -185,17 +181,5 @@ line-height: 18px;
     display: block;
     height: 550px;
     padding-top: 30px;
-  }
-  .service-content {
-    left: 0px !important;
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .service-text {
-    display: flex;
-    justify-content: space-around;
-    left: 35px;
   }
 }

@@ -52,7 +52,7 @@
   background: #040429;
   border-radius: 5px;
   color: #FFFFFF;
-  padding: 10px 20px;
+  padding: 20px 20px;
   text-align: center;
 }
 
@@ -118,6 +118,14 @@
        width: 100%;
        margin-bottom: 20px;
       }
+      .learn{
+        position: relative;
+        display: block;
+        justify-content: space-around;
+        padding: 20px;
+        width: 180px;
+        /* margin: 20px 180px; */
+      }
 }
 
 @media screen and (max-width:963px){
@@ -158,7 +166,7 @@
   }
 }
 
-@media screen and (max-width:749px){
+/* @media screen and (max-width:749px){
   .learn {
     margin: 20px 0;
     font-weight: 600;
@@ -170,4 +178,4 @@
     padding: 10px 20px;
     text-align: center;
   }
-}
+} */

@@ -22,7 +22,8 @@ const Nearchart = () => {
 
     return (
         <div className='near-chart'>
-            <div className='api-content'>
+            <marquee>
+                <div className='api-content'>
                     <div className='content'><span>Price: </span>{data.market_data.current_price.usd}</div>
                     <div className='content'><span>Exchange: </span>{data.name}</div>
                     <div className='content'><span>Market Cap: </span>{data.market_data.market_cap.usd}</div>
@@ -30,8 +31,8 @@ const Nearchart = () => {
                     <div className='content'><span>Total Supply: </span>{data.market_data.max_supply}</div>
                     <div className='content'><span>Circulating Supply: </span>{data.market_data.circulating_supply}</div>
                     <div className='content'><span>Explorer: </span><a href='' >{data.links.blockchain_site[0]}</a></div>
-             
-            </div>
+                </div>
+            </marquee>
         </div>
     );
 }

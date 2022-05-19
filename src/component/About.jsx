@@ -17,7 +17,7 @@ function About() {
             consectetur adipiscing elit.{" "}
           </span>
           <div className="learn">
-            <Link to="/">Learn more...</Link>
+            <Link to="/about">Learn more...</Link>
           </div>
         </div>
         <div className="about-content">

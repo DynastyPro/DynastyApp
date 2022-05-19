@@ -39,8 +39,9 @@
 .more-con{
   display:flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   margin: 40px 0 20px  0;
+  width: 200px;
 }
 
 .more{
@@ -61,7 +62,7 @@
 
 
 @media screen and (max-width:900px) {
-  .recentlisting-body{
+  .recentlisting-body, .more-con{
     padding: 10px;
     left: 0;
     position: relative;

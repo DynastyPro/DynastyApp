@@ -13,7 +13,7 @@ function Home() {
     <>
       <Navbar />
       <Banner/>
-      {/* <Nearchart /> */}
+      <Nearchart />
       <RecentListing />
       <Ourservice />
       <About />
