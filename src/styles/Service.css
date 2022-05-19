@@ -100,26 +100,27 @@ line-height: 18px;
   
   @media screen and (max-width:900px){
     .service{
+      display: flex;
       flex-direction: column;
-      padding: 20px 40px;
+      padding: 20px 0px;
       justify-content: center;
       text-align: center;
     }
     .service-header {
-    margin-bottom: 30px;
-  
+      margin-bottom: 30px;
     }
-
-    .service .service-content {
+    .service-content {
       display: flex;
       flex-direction: row;
       text-align: left;
       justify-content: flex-end;
-      margin-left: -50px !important;
-    
+      margin-left: -70px !important;
     }
-    .service-text{
-      margin: 20px 0;
+    .service-text {
+      position: relative;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
     }
   }
 

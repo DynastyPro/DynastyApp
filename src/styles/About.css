@@ -91,24 +91,27 @@
       .about-content .about-text h4{
         display: flex;
         text-align: center;
-        width: 380px;
+        width: 400px;
         margin: 5px 0px;
+        margin-right: 0px !important;
         padding: 0% !important;
         align-items: center;
       }
       .about-text {
-        width: 500px !important;
+        /* width: 500px !important; */
         display: block;
         justify-content: center;
         text-align: center;
         align-items: center;
+        margin-right: 0px !important;
+        padding: 0% !important;
       }
       .about-content img{
         display: flex;
         justify-content: center;
         max-width: 360px !important;
         border-radius: 20px;
-        margin-left: 0% !important;
+        margin-left: 5% !important;
       }
       .about-header  {
        text-align: left;
