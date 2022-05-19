@@ -1,6 +1,6 @@
 .patners{
+    position: relative;
     display: flex;
-    align-items: center;
     justify-content: space-between;
     padding: 40px 200px;
 }
@@ -30,12 +30,17 @@ color: #040429;
 
 @media screen and (max-width:900px){
    .patners{
-    flex-direction: column;
+    position: relative;
+    padding: 0px !important;
+    display: block;
+    align-items: center;
    }
 
    .patners-logo{
        display: flex;
        flex-direction: column;
+       width: auto;
+       grid-template-columns: 1fr 1fr;
    }
 
    .patners-logo div{

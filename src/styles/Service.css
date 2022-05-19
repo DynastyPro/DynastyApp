@@ -111,8 +111,11 @@ line-height: 18px;
     }
 
     .service .service-content {
+      display: flex;
       flex-direction: row;
       text-align: left;
+      justify-content: flex-end;
+      margin-left: -50px !important;
     
     }
     .service-text{

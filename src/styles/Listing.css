@@ -63,18 +63,16 @@
 @media screen and (max-width:900px) {
   .recentlisting-body{
     padding: 10px;
+    left: 0;
+    position: relative;
+    display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
   }
 }
 
 @media screen and (max-width:1024px) {
   .recentlisting-body{
     padding: 0px;
-  }
-}
-@media screen and (max-width:1000px) {
-  .recentlisting-body{
-    padding: 0px 150px;
   }
 }
