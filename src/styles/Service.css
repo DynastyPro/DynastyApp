@@ -195,7 +195,7 @@ line-height: 18px;
   }
   .service-text {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
+    left: 35px;
   }
 }
