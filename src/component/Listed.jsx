@@ -1,7 +1,7 @@
 import React from 'react';
-import group18 from '../images/group18.svg';
-import group17 from '../images/group17.svg';
-import group16 from '../images/group16.svg';
+import group18 from '../Images/group18.svg';
+import group17 from '../Images/group17.svg';
+import group16 from '../Images/group16.svg';
 import '../App.css';
 
 function Listed() {

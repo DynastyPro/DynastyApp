@@ -5,8 +5,9 @@ import Navbar from '../Component/Navbar'
 function Register() {
   return (
     <>
-      <Navbar/>
-      <Footer/>
+      <div>
+        <a href='https://discord.com/channels/@me/930223537904562187' target={blank}></a>
+      </div>
     </>
   )
 }

@@ -32,7 +32,7 @@ function Navbar() {
           <Link to="/contact">Contact</Link>
         </div> */}
         <button id="register">
-          <Link to="https://twitter.com/GreatPanNFT" target="blank">Register</Link>
+          <a href='https://twitter.com/GreatPanNFT' target="blank">Get Listed</a>
         </button>
       </nav>
     </div>

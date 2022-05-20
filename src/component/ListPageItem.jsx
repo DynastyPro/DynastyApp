@@ -14,7 +14,7 @@ function ListPageItem({ item }) {
         <div className="item-name">{item.name}</div>
         <h1 className="item-content">{item.content}</h1>
         <div className="link">
-          <Link to="/">See more</Link>
+          <Link to="/ListedCollection">See more</Link>
         </div>
       </div>
     </div>

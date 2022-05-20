@@ -31,7 +31,7 @@ function AboutUs() {
           <h1>Contact Us</h1>
           <div className='textin'>
             <div className='launch'>Got an idea you need a  <br/> launchpad for?</div>
-            <div  className='launch'><Link to='/register' className='learn'>Register</Link></div>
+            <div  className='launch'><a href='https://twitter.com/GreatPanNFT' className='learn' target="blank">Get Listed</a></div>
           </div>
         
       </div>

@@ -20,7 +20,7 @@ function Banner() {
           out our approved and vetted <br/> their collection and project are!
         </h3>
         <div className="register">
-          <Link to="/register">Register</Link>
+          <a href='https://twitter.com/GreatPanNFT' target="blank">Get Listed</a>
         </div>
       </div>
       <div className="banner-image">
