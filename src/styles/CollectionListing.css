@@ -3,3 +3,7 @@
     align-items: center;
     justify-content: center;
 }
+#register:hover{
+    color: #040429;
+    background-color: #D6D6D6;
+  }

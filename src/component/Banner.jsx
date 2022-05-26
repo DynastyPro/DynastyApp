@@ -20,7 +20,7 @@ function Banner() {
           out our approved and vetted <br/> their collection and project are!
         </h3>
         <div className="register">
-          <a href='https://twitter.com/GreatPanNFT' target="blank">Get Listed</a>
+          <a href='https://airtable.com/shrGd0Jj6MM6ya2mL' target="blank">Get Listed</a>
         </div>
       </div>
       <div className="banner-image">

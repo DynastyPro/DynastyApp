@@ -10,8 +10,9 @@ function ListItem({item}) {
     <img src={image1} alt=""  className='cover'/>
     <div>{item.name}</div>
     <h1>{item.content}</h1>
-    <img src={group24} alt="" className='star'/>
-    <div><Link to='/ListedCollection'>Learn more...</Link></div>
+    <h2>{item.link}</h2>
+    {/* <img src={group24} alt="" className='star'/> */}
+    {/* <div><Link to='/ListedCollection' id='register'>Learn more</Link></div> */}
 </div>
   )
 }

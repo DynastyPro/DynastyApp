@@ -32,7 +32,7 @@ function Navbar() {
           <Link to="/contact">Contact</Link>
         </div> */}
         <button id="register">
-          <a href='https://twitter.com/GreatPanNFT' target="blank">Get Listed</a>
+          <a href='https://airtable.com/shrGd0Jj6MM6ya2mL' target="blank">Get Listed</a>
         </button>
       </nav>
     </div>

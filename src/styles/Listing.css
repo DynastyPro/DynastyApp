@@ -41,19 +41,22 @@
   align-items: center;
   justify-content: space-around;
   margin: 40px 0 20px  0;
-  width: 200px;
+  /* width: 200px; */
 }
 
 .more{
-  display:flex;
-  align-items: center;
-  justify-content: center;
-  padding: 8px 30px;
-  background: black;
-  color: #FFFFFF;
-  font-size: 20px;
-  border-radius: 8px;
-  cursor: pointer;
+  background-color: #040429;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 18px;
+  text-align: center;
+  display: flex;
+}
+
+.more:hover{
+  color: #040429;
+  background-color: #D6D6D6;
 }
 
 .more a{

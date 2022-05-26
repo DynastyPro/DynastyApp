@@ -13,9 +13,10 @@ function ListPageItem({ item }) {
       <div className="list-content">
         <div className="item-name">{item.name}</div>
         <h1 className="item-content">{item.content}</h1>
-        <div className="link">
-          <Link to="/ListedCollection">See more</Link>
-        </div>
+        <h2 className="item-content">{item.link}</h2>
+        {/* <div className="link">
+          <Link to="/ListedCollection" id='register'>Learn more</Link>
+        </div> */}
       </div>
     </div>
   );

@@ -36,17 +36,15 @@ font-style: normal;
 font-weight: 400;
 font-size: 12.3584px;
 line-height: 19px;
-
+margin-bottom: 20px;
 color: #000000;
 }
 
-.link{
+#register{
     color: #FFFFFF;
     background: #040429;
 border-radius: 5px;
-max-width: fit-content;
 padding: 10px 30px;
-margin-top: 20px;
 }
 
 @media screen and (max-width:900px){

@@ -18,7 +18,7 @@ function RecentListing() {
       </div>
       <div className="more-con">
         <div className="more">
-        <Link to="/listing">See more...</Link>
+        <Link to="/listing">See more</Link>
         </div>
       </div>
     </div>

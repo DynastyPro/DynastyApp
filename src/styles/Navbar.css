@@ -42,10 +42,9 @@ nav {
 #register{
   background-color: #040429;
   color: #ffffff;
-padding: 10px 20px;
-border-radius: 5px;
-font-size: 18px;
-margin: 0 20px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 18px;
 }
 
 #register:hover{
@@ -109,6 +108,7 @@ margin: 0 20px;
   .active{
     /* left: 0; */
     top: 80px;
+    width: 80%;
   }
 
  .nav-links{
