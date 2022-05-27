@@ -9,7 +9,7 @@ function Ourservice() {
     <div className='service'>
         
         <div className='service-header'>
-            <h6>Our <br/> Service</h6>
+            <h6>Our Service</h6>
             <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </span>
         </div>
         <div className='service-content'>

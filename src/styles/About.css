@@ -26,34 +26,35 @@
   width: 700px;
 }
 
+#register{
+  background-color: #040429;
+  color: #ffffff;
+  padding: 10px 30px;
+  border-radius: 5px;
+  font-size: 18px;
+}
 
+.about-header {
+  flex: 1;
+}
 
 .about-header h6 {
   font-style: normal;
   font-weight: 800;
   font-size: 57.0409px;
-  line-height: 86px;
   color: #040429;
 }
 
 .about .about-header span {
   font-style: normal;
   font-weight: 400;
-  font-size: 14.2602px;
-  line-height: 21px;
-  width: 160px;
+  font-size: 12.9677px;
+  line-height: 19px;
+  color: #040429;
 }
 
 .learn {
-    margin: 20px 0;
-  font-weight: 600;
-  font-size: 15px;
-  line-height: 16px;
-  background: #040429;
-  border-radius: 5px;
-  color: #FFFFFF;
-  padding: 20px 20px;
-  text-align: center;
+  margin-top: 20px;
 }
 
 @media screen and (max-width:1200px){
@@ -98,7 +99,6 @@
         align-items: center;
       }
       .about-text {
-        /* width: 500px !important; */
         display: block;
         justify-content: center;
         text-align: center;
@@ -115,17 +115,19 @@
       }
       .about-header  {
        text-align: left;
-       width: 100%;
        margin-bottom: 20px;
       }
-      .learn{
+
+      .about-header h6{
+        font-size: 50px !important;
+      }
+      /* .learn{
         position: relative;
         display: block;
         justify-content: space-around;
         padding: 20px;
         width: 180px;
-        /* margin: 20px 180px; */
-      }
+      } */
 }
 
 @media screen and (max-width:963px){
@@ -143,7 +145,7 @@
     padding: 60px 100px;
   }
   .about-content {
-    width: 500PX;
+    width: 500px;
     margin-right: 200px;
     padding-right: 0px !important;
   }
@@ -160,22 +162,8 @@
     padding: 60px 100px;
   }
   .about-content {
-    width: 500PX;
+    width: 500px;
     margin-right: 200px;
     padding-right: 0px !important;
   }
 }
-
-/* @media screen and (max-width:749px){
-  .learn {
-    margin: 20px 0;
-    font-weight: 600;
-    font-size: 15px;
-    line-height: 16px;
-    background: #040429;
-    border-radius: 5px;
-    color: #FFFFFF;
-    padding: 10px 20px;
-    text-align: center;
-  }
-} */

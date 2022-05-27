@@ -31,7 +31,7 @@ function AboutUs() {
           <h1>Contact Us</h1>
           <div className='textin'>
             <div className='launch'>Got an idea you need a  <br/> launchpad for?</div>
-            <div  className='launch'><a href='https://airtable.com/shrGd0Jj6MM6ya2mL' className='learn' target="blank">Get Listed</a></div>
+            <div  className='launch'><a href='https://airtable.com/shrGd0Jj6MM6ya2mL' id='register' target="blank">Get Listed</a></div>
           </div>
         
       </div>

@@ -12,7 +12,7 @@ function Banner() {
       </div>
 
       <div className="banner-text">
-        <h1>DYNASTYPRO</h1>
+        <h1>DYNASTYPAD</h1>
         <h2>THE PRO AGGREGATOR</h2>
         <h3>
           We are an aggregator that aims to help new <b>NEAR</b> <br/> launched

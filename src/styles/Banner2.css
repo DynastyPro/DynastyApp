@@ -43,10 +43,13 @@
         font-size: 30px;
         line-height: 40px;
         padding: 0;
-
-
+    }
+    .banner2-text h3 {
+        font-weight: 400;
+        width: 400px;
     }
 
     .banner2-img, .banner2-img1, .banner2-img2{
+        display: none;
     }
 }

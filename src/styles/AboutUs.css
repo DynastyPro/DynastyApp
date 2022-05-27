@@ -47,15 +47,12 @@
     margin: 0 20px;
 }
 
-.learn{
-    font-style: normal;
-  font-weight: 600;
-    margin-top: 20px;
-    padding: 10px 40px;
-    background: #040429;
-  border-radius: 5px;
-  width: fit-content;
-  color: #FFFFFF;
+#register{
+    background-color: #040429;
+    color: #ffffff;
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-size: 18px;
   }
 
 .social {
@@ -83,12 +80,12 @@
         display: block;
         justify-content: space-around !important;
     }
-    .learn {
+    /* .learn {
         display: flex;
         align-items: center !important;
         text-align: center;
         justify-content: space-around !important;
-    }
+    } */
     .about-text{
         margin: 20px 0;
         padding: 0 20px;
@@ -96,6 +93,7 @@
     }
     .about-text-content{
         margin: 20px 0;
+        width: 400px;
     }
     .textin{
         flex-direction: column;

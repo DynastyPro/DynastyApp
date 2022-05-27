@@ -36,22 +36,25 @@
   /* padding: 0 70px; */
 }
 
-.more-con{
-  display:flex;
+.more-con {
+  display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: space-around;
-  margin: 40px 0 20px  0;
-  /* width: 200px; */
+  justify-content: center;
 }
 
 .more{
   background-color: #040429;
   color: #ffffff;
+  width: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
   padding: 10px 20px;
   border-radius: 5px;
   font-size: 18px;
-  text-align: center;
-  display: flex;
 }
 
 .more:hover{

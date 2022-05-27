@@ -10,14 +10,13 @@ function About() {
         {/* <img src={group8} alt="" className='group8' /> */}
         <div className="about-header">
           <h6>
-            About <br /> Us
+            About Us
           </h6>
           <span>
-            Lorem ipsum dolor sit amet, <br />
-            consectetur adipiscing elit.{" "}
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           </span>
           <div className="learn">
-            <Link to="/about">Learn more...</Link>
+            <Link to="/about" id="register">Learn more</Link>
           </div>
         </div>
         <div className="about-content">
