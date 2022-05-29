@@ -35,7 +35,7 @@ function Footer() {
         </div>
       </div>
       <div className="copyright">
-        <h5><BiCopyright className="icon"/>Copyright - 2022 DynastyPro</h5>
+        <h5><BiCopyright className="icon"/>Copyright - 2022 DynastyPad</h5>
       </div>
     </div>
   );
