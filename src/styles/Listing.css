@@ -3,8 +3,6 @@
   padding: 20px 200px;
 }
 
-
-
 .recentlisting-header {
   display: flex;
   flex-direction: column;
@@ -17,7 +15,6 @@
   font-style: normal;
   font-weight: 600;
   font-size: 30px;
-  line-height: 45px;
   color: #000000;
 }
 
@@ -75,6 +72,14 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+  }
+  .recentlisting-header p{
+    display: flex;
+    justify-content: space-around;
+    width: 200px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    padding: 0%;
   }
 }
 

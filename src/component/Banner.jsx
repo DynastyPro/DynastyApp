@@ -13,11 +13,9 @@ function Banner() {
 
       <div className="banner-text">
         <h1>DYNASTYPAD</h1>
-        <h2>THE PRO AGGREGATOR</h2>
+        <h2>List, Find, and Curate NFTs easily.</h2>
         <h3>
-          We are an aggregator that aims to help new <b>NEAR</b> <br/> launched
-          projects create high quality experiences for <br/> their communities. Check
-          out our approved and vetted <br/> their collection and project are!
+        <b>DynastyPad</b> is a Mintyplex-powered aggregator platform that allows creators to list their <b>NEAR</b> NFT Collections and helps collectors easily find and curate NFT collectibles.
         </h3>
         <div className="register">
           <a href='https://airtable.com/shrGd0Jj6MM6ya2mL' target="blank">Get Listed</a>

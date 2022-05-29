@@ -12,7 +12,7 @@ function AboutUs() {
         <img src={image3} alt="" className='ban-img' sizes='(max-width:300px) 200px'/>
       </div>
       
-      <div className='about-text'>
+      <div className='about-text about-text-1'>
         <div className='about-text-content'>
          
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras luctus nibh blandit feugiat. Non amet, faucibus volutpat tellus. Tristique urna faucibus et adipiscing sollicitudin. Varius vitae imperdiet donec nulla auctor eleifend dis commodo pellentesque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras luctus nibh blandit feugiat. Non amet, faucibus volutpat tellus. Tristique urna faucibus et adipiscing sollicitudin. Varius vitae imperdiet donec nulla auctor eleifend dis commodo pellentesque.  

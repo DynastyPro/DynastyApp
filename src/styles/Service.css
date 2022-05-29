@@ -29,10 +29,9 @@
   }
   
  .service-header span {
-    font-style: normal;
+    max-width: 200px !important;
     font-weight: 400;
-    font-size: 12.9677px;
-    line-height: 19px;
+    font-size: 12px;
     color: #040429;
   }  
 
@@ -92,7 +91,7 @@ line-height: 18px;
   
   @media screen and (max-width:900px){
     .service{
-      height: 850px !important;
+      height: 750px !important;
       display: flex;
       flex-direction: column;
       padding: 20px 0px;

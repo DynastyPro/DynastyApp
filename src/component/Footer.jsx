@@ -11,29 +11,31 @@ function Footer() {
   return (
     <div className="footer">
       <div className="footer-widget">
-        <div>
+        <div widget-className="widget-2">
           {" "}
-          <img src={group4} alt="" className="group4" />
-        </div>
-        <div>
-          <div className="span">
-            <span>Subscribe to our <br/> newsletter</span>
-          </div>
+          <div><img src={group4} alt="" className="group4" /></div>
           <div className="social">
               <FaDiscord className="icon"/>
               <FiGlobe className="icon"/>
               <FiTwitter className="icon"/>
           </div>
-          <div className="h5">
-            <h5><BiCopyright className="icon"/>Copyright - 2022 DynastyPro</h5>
+        </div>
+        <div className="widget-1">
+          
+          <div className="span">
+            <span>Subscribe to our <br/> newsletter</span>
           </div>
+          <div className="footer-widget-right">
+            <form onSubmit={onclick}>
+              <input type="text" placeholder="Email address" />
+              <button type="submit" className="submit"><BsChevronRight/></button>
+            </form>
+          </div> <div className="h5">
+        </div>         
         </div>
-        <div className="footer-widget-right">
-          <form onSubmit={onclick}>
-            <input type="text" placeholder="Email address" />
-            <button type="submit" className="submit"><BsChevronRight/></button>
-          </form>
-        </div>
+      </div>
+      <div className="copyright">
+        <h5><BiCopyright className="icon"/>Copyright - 2022 DynastyPro</h5>
       </div>
     </div>
   );

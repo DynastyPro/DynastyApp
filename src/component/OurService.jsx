@@ -10,23 +10,23 @@ function Ourservice() {
         
         <div className='service-header'>
             <h6>Our Service</h6>
-            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </span>
+            <span>We are committed to building an NFT platform that helps you list, find and curate NEAR NFTs. Below are a few of the services we offer: </span>
         </div>
         <div className='service-content'>
             <div className='service-text'>
                 <div className='ellipse'><IoListSharp className='icon'/></div>
-                <h1>Lorem ipsum dolor </h1>
-                <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sem tempus sit massa ridiculus eget dignissim id consequat.</span>
+                {/* <h1>Lorem ipsum dolor </h1> */}
+                <span>We allow Creators to list their Upcoming or launched NFT projects effortlessly.</span>
             </div>
             <div className  ='service-text'>
                 <div className='ellipse'><BsBarChart className='icon'/></div>
-                <h1>Lorem ipsum dolor </h1>
-                <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sem tempus sit massa ridiculus eget dignissim id consequat.</span>
+                {/* <h1>Lorem ipsum dolor </h1> */}
+                <span>We pull NFT data from different vital sources so that collectors can get the most relevant details about collections.</span>
             </div>
             <div className='service-text'>
                 <div className='ellipse'><FiBox className='icon'/></div>
-                <h1>Lorem ipsum dolor </h1>
-                <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sem tempus sit massa ridiculus eget dignissim id consequat.</span>
+                {/* <h1>Lorem ipsum dolor </h1> */}
+                <span>We offer a gamified experience to make it more fun for collectors to curate and engage with Listed Collections.</span>
             </div>
         </div>
     </div>
