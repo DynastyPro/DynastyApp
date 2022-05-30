@@ -91,7 +91,7 @@
       }
       .about-text h4{
         display: flex;
-        text-align: justify;
+        text-align: center;
         margin: 5px 0px;
         margin-right: 0px !important;
         padding: 0% !important;
