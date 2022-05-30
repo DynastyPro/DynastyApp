@@ -20,7 +20,7 @@
 .about-content h4 {
   font-weight: 500;
   margin-left: -70px;
-  width: 750px;
+  width: 650px;
 }
 .about img {
   width: 700px;
@@ -80,7 +80,7 @@
 @media screen and (max-width:900px){
     .about{
         padding: 20px;
-        height: 850px !important;
+        height: 700px !important;
     }
     .about-content {
       max-width: 400px;
@@ -89,14 +89,12 @@
         flex-direction: column;
         justify-content: flex-start;
       }
-      .about-content .about-text h4{
+      .about-text h4{
         display: flex;
-        width: 350px;
         text-align: justify;
         margin: 5px 0px;
         margin-right: 0px !important;
         padding: 0% !important;
-        align-items: center;
         justify-content: center;
       }
       .about-text {

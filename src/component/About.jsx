@@ -23,23 +23,7 @@ function About() {
           <img src={group7} alt="" />
           <div className="about-text">
             <h4>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
-              luctus nibh blandit feugiat. Non amet, faucibus volutpat tellus.
-              Tristique urna faucibus et adipiscing sollicitudin. Varius vitae
-              imperdiet donec nulla auctor eleifend dis commodo pellentesque.
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
-              luctus nibh blandit feugiat. Non amet, faucibus volutpat tellus.
-              Tristique urna faucibus et adipiscing sollicitudin. Varius vitae
-              imperdiet donec nulla auctor eleifend dis commodo pellentesque.{" "}
-              <br /> <br />
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
-              luctus nibh blandit feugiat. Non amet, faucibus volutpat tellus.
-              Tristique urna faucibus et adipiscing sollicitudin. Varius vitae
-              imperdiet donec nulla auctor eleifend dis commodo pellentesque.
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
-              luctus nibh blandit feugiat. Non amet, faucibus volutpat tellus.
-              Tristique urna faucibus et adipiscing sollicitudin. Varius vitae
-              imperdiet donec nulla auctor eleifend dis commodo pellentesque.{" "}
+            DynastyPad is an NFT aggregator and curating platform that allows creators to list their NFT collections and reach collectors finding curated NFT projects to invest in or support.<br/> Being powered by Mintyplex and in harmony with Mintyplex's goal, DynastyPad aims to onboard and connect as many creators and collectors as possible into the NEAR ecosystem. <br/>Our mission is to make the listing, finding, and curating of NEAR NFTs as simple as possible. This current interface is the pre-alpha version. The team is actively building and will be launching the beta version soon.
             </h4>
           </div>
         </div>
