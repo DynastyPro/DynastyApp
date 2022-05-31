@@ -2,7 +2,7 @@ import React from "react";
 import '../Styles/Partners.css'
 import mintyplex from "../Images/minty.png";
 
-function Patners() {
+function Partners() {
   return (
     <div className="partners">
       <div className="partners-text">
@@ -32,4 +32,4 @@ function Patners() {
   );
 }
 
-export default Patners;
+export default Partners;

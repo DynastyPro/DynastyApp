@@ -4,7 +4,7 @@ import Nearchart from '../Component/nearchart';
 import RecentListing from '../Component/recentlisting';
 import Ourservice from '../Component/ourservice';
 import About from '../Component/about';
-import Patners from '../Component/patners';
+import Partners from '../Component/Partners';
 import Footer from '../Component/Footer';
 import Testing2 from '../Component/testing2';
 
@@ -19,7 +19,7 @@ function Home() {
       <Ourservice />
       <Testing2 />
       <About />
-      <Patners />
+      <Partners />
       <Footer />
     </>
   );

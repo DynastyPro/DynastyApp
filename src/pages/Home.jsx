@@ -4,7 +4,7 @@ import Nearchart from '../Component/NearChart';
 import RecentListing from '../Component/RecentListing';
 import Ourservice from '../Component/OurService';
 import About from '../Component/About';
-import Patners from '../Component/Patners';
+import Partners from '../Component/Partners';
 import Footer from '../Component/Footer';
 
 function Home() {
@@ -17,7 +17,7 @@ function Home() {
       <RecentListing />
       <Ourservice />
       <About />
-      <Patners />
+      <Partners />
       <Footer />
     </>
   );

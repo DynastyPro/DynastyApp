@@ -1,11 +1,11 @@
-.patners{
+.Partners{
     position: relative;
     display: flex;
     justify-content: space-between;
     padding: 40px 200px;
 }
 
-.patners-text h1{
+.Partners-text h1{
     font-style: normal;
 font-weight: 800;
 font-size: 57.0409px;
@@ -13,14 +13,14 @@ line-height: 86px;
 color: #040429;
 }
 
-.patners-logo{
+.Partners-logo{
     
     position: relative;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-.patners-logo div{
+.Partners-logo div{
     margin: 10px 20px;
     padding: 15px 20px;
     background: rgba(4, 4, 41, 0.05);
@@ -30,64 +30,64 @@ color: #040429;
 }
 
 @media screen and (max-width:900px){
-   .patners{
+   .Partners{
     position: relative;
     display: block;
     align-items: center;
     padding: 0px 100px !important;
    }
 
-   .patners-logo{
+   .Partners-logo{
        display: flex;
        flex-direction: column;
        width: auto;
        grid-template-columns: 1fr 1fr;
    }
 
-   .patners-logo div{
+   .Partners-logo div{
        padding: 20px 15px;
        margin: 20px 0;
    }
 }
 
 @media screen and (max-width:1235px){
-    .patners{
+    .Partners{
       padding: 0pc 200px;
     }
 }
 
 @media screen and (max-width:963px){
-    .patners{
+    .Partners{
       padding: 0px 200px;
       padding-bottom: 30px;
       display: block;
       text-align: center;
     }
-    .patners-logo {
+    .Partners-logo {
         justify-content: space-around;
     }
 }
 
 @media screen and (max-width:974px){
-    .patners{
+    .Partners{
       padding: 0px 200px;
       padding-bottom: 30px;
       display: block;
       text-align: center;
     }
-    .patners-logo {
+    .Partners-logo {
         justify-content: space-around;
     }
 }
 
 @media screen and (max-width:1024px){
-    .patners{
+    .Partners{
       padding: 0px 200px;
       padding-bottom: 30px;
       display: block;
       text-align: center;
     }
-    .patners-logo {
+    .Partners-logo {
         justify-content: space-around;
     }
 }
