@@ -13,7 +13,7 @@ function About() {
             About Us
           </h6>
           <span>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            DynastyPad helps you list, find and curate NEAR NFT Collections easily.
           </span>
           <div className="learn">
             <Link to="/about" id="register">Learn more</Link>
