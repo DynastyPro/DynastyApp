@@ -1,11 +1,11 @@
-.Partners{
+.partners{
     position: relative;
     display: flex;
     justify-content: space-between;
     padding: 40px 200px;
 }
 
-.Partners-text h1{
+.partners-text h1{
     font-style: normal;
 font-weight: 800;
 font-size: 57.0409px;
@@ -13,14 +13,14 @@ line-height: 86px;
 color: #040429;
 }
 
-.Partners-logo{
+.partners-logo{
     
     position: relative;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-.Partners-logo div{
+.partners-logo div{
     margin: 10px 20px;
     padding: 15px 20px;
     background: rgba(4, 4, 41, 0.05);
@@ -30,34 +30,34 @@ color: #040429;
 }
 
 @media screen and (max-width:900px){
-   .Partners{
+   .partners{
     position: relative;
     display: block;
     align-items: center;
     padding: 0px 100px !important;
    }
 
-   .Partners-logo{
+   .partners-logo{
        display: flex;
        flex-direction: column;
        width: auto;
        grid-template-columns: 1fr 1fr;
    }
 
-   .Partners-logo div{
+   .partners-logo div{
        padding: 20px 15px;
        margin: 20px 0;
    }
 }
 
 @media screen and (max-width:1235px){
-    .Partners{
+    .partners{
       padding: 0pc 200px;
     }
 }
 
 @media screen and (max-width:963px){
-    .Partners{
+    .partners{
       padding: 0px 200px;
       padding-bottom: 30px;
       display: block;
@@ -69,25 +69,25 @@ color: #040429;
 }
 
 @media screen and (max-width:974px){
-    .Partners{
+    .partners{
       padding: 0px 200px;
       padding-bottom: 30px;
       display: block;
       text-align: center;
     }
-    .Partners-logo {
+    .partners-logo {
         justify-content: space-around;
     }
 }
 
 @media screen and (max-width:1024px){
-    .Partners{
+    .partners{
       padding: 0px 200px;
       padding-bottom: 30px;
       display: block;
       text-align: center;
     }
-    .Partners-logo {
+    .partners-logo {
         justify-content: space-around;
     }
 }
