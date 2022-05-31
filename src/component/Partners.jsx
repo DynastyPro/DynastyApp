@@ -4,11 +4,11 @@ import mintyplex from "../Images/minty.png";
 
 function Patners() {
   return (
-    <div className="patners">
-      <div className="patners-text">
-        <h1>Patners</h1>
+    <div className="partners">
+      <div className="partners-text">
+        <h1>Partners</h1>
       </div>
-      <div className="patners-logo">
+      <div className="partners-logo">
         <div>
           <img src={mintyplex} alt="" />
         </div>
