@@ -18,7 +18,7 @@ function Banner2() {
       </div>
       <div className='banner2-text'>
         <h1>ABOUT-US</h1>
-        <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </h3>
+        <h3>DynastyPad helps you list, find and curate NEAR NFT Collections easily.</h3>
       </div>
     </div>
   );
