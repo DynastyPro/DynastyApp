@@ -83,7 +83,7 @@
         height: 700px !important;
     }
     .about-content {
-      max-width: 400px;
+      min-width: 400px;
     }
     .content {
         flex-direction: column;
