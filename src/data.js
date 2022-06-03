@@ -1,7 +1,6 @@
 import {FaDiscord} from 'react-icons/fa'
-import {BiCopyright} from 'react-icons/bi'
-import {BsChevronRight} from 'react-icons/bs'
 import {FiGlobe, FiTwitter} from 'react-icons/fi'
+import paras from "./Images/paras.svg";
 
 
 export const listData = [
@@ -14,6 +13,7 @@ export const listData = [
               <FaDiscord className="icon"/>
               <FiGlobe className="icon"/>
               <FiTwitter className="icon"/>
+              <img src={paras} style={{width: "36px", borderRadius: "10px"}} />
             </div>
 
     },
@@ -26,6 +26,7 @@ export const listData = [
               <FaDiscord className="icon"/>
               <FiGlobe className="icon"/>
               <FiTwitter className="icon"/>
+              <img src={paras} style={{width: "36px", borderRadius: "10px"}} />
             </div>
 
     },
@@ -38,6 +39,7 @@ export const listData = [
               <FaDiscord className="icon"/>
               <FiGlobe className="icon"/>
               <FiTwitter className="icon"/>
+              <img src={paras} style={{width: "36px", borderRadius: "10px"}} />
             </div>
 
     },
@@ -50,6 +52,7 @@ export const listData = [
               <FaDiscord className="icon"/>
               <FiGlobe className="icon"/>
               <FiTwitter className="icon"/>
+              <img src={paras} style={{width: "36px", borderRadius: "10px"}} />
             </div>
 
     }
