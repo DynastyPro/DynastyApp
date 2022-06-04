@@ -7,27 +7,19 @@
 
 .partners-text h1{
     font-style: normal;
-font-weight: 800;
-font-size: 57.0409px;
-line-height: 86px;
-color: #040429;
+    font-weight: 800;
+    font-size: 57.0409px;
+    line-height: 86px;
+    color: #040429;
 }
 
 .partners-logo{
-    
+    padding: 20px;
     position: relative;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-.partners-logo div{
-    margin: 10px 20px;
-    padding: 15px 20px;
-    background: rgba(4, 4, 41, 0.05);
-    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
-    border-radius: 10px;
-    cursor: pointer;
-}
 
 @media screen and (max-width:900px){
    .partners{
@@ -42,11 +34,6 @@ color: #040429;
        flex-direction: column;
        width: auto;
        grid-template-columns: 1fr 1fr;
-   }
-
-   .partners-logo div{
-       padding: 20px 15px;
-       margin: 20px 0;
    }
 }
 

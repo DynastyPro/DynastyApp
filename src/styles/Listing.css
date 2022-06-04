@@ -65,6 +65,9 @@
 
 
 @media screen and (max-width:900px) {
+  .recentlisting {
+    padding: 20px 0px;
+  }
   .recentlisting-body, .more-con{
     padding: 10px;
     left: 0;
