@@ -3,6 +3,8 @@ import {FiGlobe, FiTwitter} from 'react-icons/fi'
 import image1 from './Images/collection/image1.jpg';
 import image2 from './Images/collection/image2.webp';
 import image3 from './Images/collection/image3.jpg';
+import image4 from './Images/collection/image4.jpg';
+import image5 from './Images/collection/image5.jpeg';
 import paras from "./Images/paras.svg";
 
 
@@ -49,18 +51,32 @@ export const listData = [
           </div>
 
     },
-    // {
-    //     id: 4,
-    //     background: <img src={image1} style={{width: "300", height: "180px", borderRadius: "10px"}} />,
-    //     name: 'Lorem',
-    //     content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisis erat elementum mauris egestas risus justo pulvinar morbi integer. Condimentum ipsum ac ullamcorper.',
-    //     link:
-    //       <div className="social">
-    //         <a href=''><FaDiscord className="icon"/></a>
-    //         <a href=''><FiGlobe className="icon"/></a>
-    //         <a href=''><FiTwitter className="icon"/></a>
-    //         <a href=''><img src={paras} style={{width: "33px", borderRadius: "10px"}} /></a>
-    //       </div>
+    {
+        id: 4,
+        background: <img src={image5} style={{width: "300", height: "180px", borderRadius: "10px"}} />,
+        name: 'Near Labs',
+        content: "Near Labs NFT card is a new premium launchpad on NEAR blockchain with 4 different class, 60% Revenue dividend to card holder as their passive income monthly.",
+        link:
+          <div className="social">
+            <a href='https://discord.com/invite/P3dcSHQu5E'><FaDiscord className="icon"/></a>
+            <a href='www.nearlabs.com'><FiGlobe className="icon"/></a>
+            <a href='https://twitter.com/near_labs'><FiTwitter className="icon"/></a>
+            {/* <a href=''><img src={paras} style={{width: "33px", borderRadius: "10px"}} /></a> */}
+          </div>
 
-    // }
+    },
+    {
+      id: 5,
+      background: <img src={image4} style={{width: "300", height: "180px", borderRadius: "10px"}} />,
+      name: 'Nature of Imagination NFT collection',
+      content: "It's all about the beauty of nature 😃.",
+      link:
+        <div className="social">
+          <a href='https://discord.gg/Q5A29Vhg'><FaDiscord className="icon"/></a>
+          {/* <a href=''><FiGlobe className="icon"/></a> */}
+          <a href='https://twitter.com/Franklyn_Dera5'><FiTwitter className="icon"/></a>
+          <a href='https://opensea.io/NatureOfImagination'><img src={paras} style={{width: "33px", borderRadius: "10px"}} /></a>
+        </div>
+
+  }
 ]
