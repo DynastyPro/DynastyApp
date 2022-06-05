@@ -13,10 +13,10 @@ function Partners() {
         <div>
           <img src={near_logo_stack} alt="" style={{width: "60px"}}/>
         </div>
-        {/* <div>
+        <div>
           <img src={mintyplex} alt="" />
         </div>
-        <div>
+        {/* <div>
           <img src={mintyplex} alt="" />
         </div>
         <div>

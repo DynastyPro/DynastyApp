@@ -90,6 +90,7 @@
         justify-content: flex-start;
       }
       .about-text h4{
+        width: 300px;
         display: flex;
         text-align: justify;
         margin: 5px 0px;
@@ -153,6 +154,7 @@
   }
   .about-content {
     width: 500px;
+
     margin-right: 200px;
     padding-right: 0px !important;
   }

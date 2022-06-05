@@ -16,7 +16,7 @@ function About() {
             DynastyPad helps you list, find and curate NEAR NFT Collections easily.
           </span>
           <div className="learn">
-            <Link to="/about" id="register">Learn more</Link>
+            {/* <Link to="/about" id="register">Learn more</Link> */}
           </div>
         </div>
         <div className="about-content">
