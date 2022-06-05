@@ -42,10 +42,10 @@ export const listData = [
         content: "We're building a blockchain-based ticketing platform to make real-world and metaverse events more accessible to those with NFT holdings, which will be available on the NEAR blockchain.",
         link: 
           <div className="social">
-            <a href=''><FaDiscord className="icon"/></a>
-            <a href=''><FiGlobe className="icon"/></a>
-            <a href=''><FiTwitter className="icon"/></a>
-            <a href=''><img src={paras} style={{width: "33px", borderRadius: "10px"}} /></a>
+            <a href='https://discord.gg/f42Mq2yy3d'><FaDiscord className="icon"/></a>
+            {/* <a href=''><FiGlobe className="icon"/></a> */}
+            <a href='https://twitter.com/GreatPanNFT'><FiTwitter className="icon"/></a>
+            {/* <a href=''><img src={paras} style={{width: "33px", borderRadius: "10px"}} /></a> */}
           </div>
 
     },
