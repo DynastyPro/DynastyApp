@@ -8,7 +8,7 @@ function ListPageItem({ item }) {
   return (
     <div className="listpageitem">
       <div className="list-image">
-        <img src={image1} alt="" className="" />
+        <div className='cover'>{item.background}</div>
       </div>
       <div className="list-content">
         <div className="item-name">{item.name}</div>
