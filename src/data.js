@@ -64,19 +64,5 @@ export const listData = [
             {/* <a href=''><img src={paras} style={{width: "33px", borderRadius: "10px"}} /></a> */}
           </div>
 
-    },
-    {
-      id: 5,
-      background: <img src={image4} style={{width: "300", height: "180px", borderRadius: "10px"}} />,
-      name: 'Nature of Imagination NFT collection',
-      content: "It's all about the beauty of nature 😃.",
-      link:
-        <div className="social">
-          <a href='https://discord.gg/Q5A29Vhg'><FaDiscord className="icon"/></a>
-          {/* <a href=''><FiGlobe className="icon"/></a> */}
-          <a href='https://twitter.com/Franklyn_Dera5'><FiTwitter className="icon"/></a>
-          <a href='https://opensea.io/NatureOfImagination'><img src={paras} style={{width: "33px", borderRadius: "10px"}} /></a>
-        </div>
-
-  }
+    }
 ]
