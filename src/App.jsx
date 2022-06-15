@@ -1,10 +1,10 @@
 import React from 'react'
 import {BrowserRouter as Router, Route, Routes } from 'react-router-dom'
-import About from './Pages/AboutPage'
-import Home from './Pages/Home.jsx'
-import ListingPage from './Pages/Listing'
-import Register from './Pages/Register'
-import ListedCollection from './Pages/ListedCollection'
+import About from './pages/AboutPage'
+import Home from './pages/Home.jsx'
+import ListingPage from './pages/Listing'
+import Register from './pages/Register'
+import ListedCollection from './pages/ListedCollection'
 
 
 function App() {
