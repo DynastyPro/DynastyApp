@@ -1,12 +1,12 @@
-import Navbar from '../Component/Navbar';
-import Banner from '../Component/banner';
-import Nearchart from '../Component/nearchart';
-import RecentListing from '../Component/recentlisting';
-import Ourservice from '../Component/ourservice';
-import About from '../Component/about';
-import Partners from '../Component/Partners';
-import Footer from '../Component/Footer';
-import Testing2 from '../Component/testing2';
+import Navbar from '../component/Navbar';
+import Banner from '../component/banner';
+import Nearchart from '../component/nearchart';
+import RecentListing from '../component/recentlisting';
+import Ourservice from '../component/ourservice';
+import About from '../component/about';
+import Partners from '../component/Partners';
+import Footer from '../component/Footer';
+import Testing2 from '../component/testing2';
 
 function Home() {
   return (

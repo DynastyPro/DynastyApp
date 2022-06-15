@@ -1,9 +1,9 @@
 // import logo from '../logo.svg';
 import '../App.css';
-import Navbar from '../Component/Navbar';
-import Banner3 from '../Component/Banner3';
-import Footer from '../Component/Footer';
-import Listed from '../Component/Listed';
+import Navbar from '../component/Navbar';
+import Banner3 from '../component/Banner3';
+import Footer from '../component/Footer';
+import Listed from '../component/Listed';
 
 function ListedCollection() {
   return (

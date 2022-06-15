@@ -1,7 +1,7 @@
-import Navbar from '../Component/Navbar';
-import Banner3 from '../Component/Banner3';
-import AboutUs from '../Component/AboutUs';
-import Footer from '../Component/Footer';
+import Navbar from '../component/Navbar';
+import Banner3 from '../component/Banner3';
+import AboutUs from '../component/AboutUs';
+import Footer from '../component/Footer';
 
 function AboutPage() {
   return (
