@@ -1,5 +1,5 @@
 import React from 'react';
-import '../Styles/Service.css'
+import '../styles/Service.css'
 import {IoListSharp} from 'react-icons/io5'
 import {BsBarChart} from 'react-icons/bs'
 import {FiBox} from 'react-icons/fi'

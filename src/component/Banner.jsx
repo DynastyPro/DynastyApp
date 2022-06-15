@@ -1,7 +1,7 @@
 import React from "react";
-import group5 from "../Images/group5.svg";
-import group6 from "../Images/group6.svg";
-import "../Styles/Banner.css";
+import group5 from "../images/group5.svg";
+import group6 from "../images/group6.svg";
+import "../styles/Banner.css";
 import { Link } from "react-router-dom";
 
 function Banner() {

@@ -1,7 +1,7 @@
 import React from "react";
-import '../Styles/Partners.css'
-import mintyplex from "../Images/minty.png";
-import near_logo_stack from "../Images/near_logo_stack.svg";
+import '../styles/Partners.css'
+import mintyplex from "../images/minty.png";
+import near_logo_stack from "../images/near_logo_stack.svg";
 
 function Partners() {
   return (

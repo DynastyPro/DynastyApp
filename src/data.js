@@ -1,11 +1,11 @@
 import {FaDiscord} from 'react-icons/fa'
 import {FiGlobe, FiTwitter} from 'react-icons/fi'
-import image1 from './Images/collection/image1.jpg';
-import image2 from './Images/collection/image2.webp';
-import image3 from './Images/collection/image3.jpg';
-import image4 from './Images/collection/image4.jpg';
-import image5 from './Images/collection/image5.jpeg';
-import paras from "./Images/paras.svg";
+import image1 from './images/collection/image1.jpg';
+import image2 from './images/collection/image2.webp';
+import image3 from './images/collection/image3.jpg';
+import image4 from './images/collection/image4.jpg';
+import image5 from './images/collection/image5.jpeg';
+import paras from "./images/paras.svg";
 
 
 export const listData = [

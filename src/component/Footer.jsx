@@ -1,6 +1,6 @@
 import React from "react";
-import "../Styles/Footer.css";
-import group4 from "../Images/group4.svg";
+import "../styles/Footer.css";
+import group4 from "../images/group4.svg";
 import {FaDiscord} from 'react-icons/fa'
 import {BiCopyright} from 'react-icons/bi'
 import {BsChevronRight} from 'react-icons/bs'

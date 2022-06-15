@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import dynastylogo from "../Images/dynasty.svg";
-import "../Styles/Navbar.css";
+import dynastylogo from "../images/dynasty.svg";
+import "../styles/Navbar.css";
 
 import { Link } from "react-router-dom";
 import {FaBars, FaTimes} from 'react-icons/fa'

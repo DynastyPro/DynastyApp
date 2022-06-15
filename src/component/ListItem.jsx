@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import '../Styles/ListItem.css'
-import group24 from '../Images/group24.svg';
+import '../styles/ListItem.css'
+import group24 from '../images/group24.svg';
 
 function ListItem({item}) {
   return (

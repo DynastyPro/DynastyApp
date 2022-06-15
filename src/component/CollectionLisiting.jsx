@@ -1,7 +1,7 @@
 import React from 'react'
 import ListPageItem from './ListPageItem'
 import { listData } from "../data";
-import '../Styles/CollectionListing.css'
+import '../styles/CollectionListing.css'
 
 function CollectionLisiting() {
   return (
